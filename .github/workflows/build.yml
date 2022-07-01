@@ -1,0 +1,7 @@
+name: Build CDZ Site
+on: [push]
+jobs:
+  Build-Vue-Site:
+    runs-on: ubuntu-latest
+    steps:
+      - run: npm run build
