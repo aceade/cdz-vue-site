@@ -17,6 +17,3 @@ A practice project to teach myself Vue, based on [a scifi series](https://aceade
 
 ## Styling
 TBD.
-
-## Caveats
-I have had to commit the build results to the repo so that GitHub Pages can find them. I'd prefer not to, but nothing else works.
