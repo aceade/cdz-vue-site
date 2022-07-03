@@ -1,19 +1,15 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Navbar from './components/Navbar.vue';
+import Home from './components/Home.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="This is a placeholder!" />
-    </div>
+    <Navbar/>
   </header>
 
   <main>
-    <TheWelcome />
+    <Home/>
   </main>
 </template>
 
@@ -30,6 +26,10 @@ import TheWelcome from './components/TheWelcome.vue'
 
 header {
   line-height: 1.5;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: beige 2px dotted;
 }
 
 .logo {
