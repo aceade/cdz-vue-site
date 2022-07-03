@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "main", "feature/#4-define-actions-to-build-the-site" ]
+    branches: [ "main", "feature/#2-create-a-new-home-page-with-the-required-features" ]
   pull_request:
     branches: [ "main" ]
 
