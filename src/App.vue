@@ -4,9 +4,7 @@ import Home from './components/Home.vue'
 </script>
 
 <template>
-  <header>
-    <Navbar/>
-  </header>
+  <Navbar/>
 
   <main>
     <Home/>
@@ -22,19 +20,6 @@ import Home from './components/Home.vue'
   padding: 2rem;
 
   font-weight: normal;
-}
-
-header {
-  line-height: 1.5;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  border-bottom: beige 2px dotted;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
 }
 
 a,
