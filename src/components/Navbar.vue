@@ -26,24 +26,33 @@
 .navigation {
     width: 100%;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .navigation li {
     list-style: none;
+    margin-left: -15px;
 }
-
 
 header {
   line-height: 1.5;
   width: 100%;
+  padding-right: calc(var(--section-gap) / 2);
 }
+
+header .wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+}
+
 .seriesLogo {
-    margin-bottom: 5%;
+    margin-bottom: 10px;
 }
 
 .seriesLogo img {
     animation: Logo-spin infinite 2s alternate;
+    max-width: 100px;
 }
 
 
