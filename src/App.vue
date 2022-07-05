@@ -4,9 +4,7 @@ import Home from './components/Home.vue'
 </script>
 
 <template>
-  <header>
-    <Navbar/>
-  </header>
+  <Navbar/>
 
   <main>
     <Home/>
@@ -22,19 +20,6 @@ import Home from './components/Home.vue'
   padding: 2rem;
 
   font-weight: normal;
-}
-
-header {
-  line-height: 1.5;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  border-bottom: beige 2px dotted;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
 }
 
 a,
@@ -62,20 +47,5 @@ a,
     padding: 0 2rem;
   }
 
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
 }
 </style>

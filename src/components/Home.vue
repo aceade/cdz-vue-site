@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <img class="seriesLogo" src="https://aceade.files.wordpress.com/2019/07/broken_arms.png"/>
-    </div>
+    
     <h2>A History Lesson</h2>
 
     <p>The dwarves of Ireland, or the Fir Tollán to use their own tongue, have always been centred in the rugged, windswept hills of western Connacht.
@@ -11,7 +9,7 @@
     <p>Until the 1850s.</p>
 
     <h2>The Disaster</h2>
-    <p>Some say that the dwarves had developed an electrical power source that involved splitting particles of air. Others that it was divine retribution for unspeakable acts.</p>
+    <p>Some say that it was caused by an attempt to generate electricity by splitting particles of air. Others that it was divine retribution for unspeakable acts.</p>
     <p>Nobody knows for certain what really happened, but what everyone knows is that the very fabric of reality was torn asunder. 
         What was once a series of impregnable cities became a nightmare where gravity could suddenly reverse, where the unfortunate could take another step and burst into flame, where one could turn a corner and vanish into thin air, only to reappear months later with no warning.
         To say nothing of the monsters that appeared.
@@ -20,7 +18,7 @@
         <li>The banshees - tall, thin humanoids with screeching voices and whose dress and behaviour resembled nothing short of the Vikings.</li>
         <li>The serpentoids - humanoid snakes seeking their revenge on Saint Patrick.</li>
         <li>The púca. Mutated horses with the ability to mimic human speech.</li>
-        <li>And the Fomorians. The 'orcs'. The distorted remains of the humans and dwarves who had called the region home and were left behind.</li>
+        <li>And the Fomorians. The 'orcs'. The mutated remains of the humans and dwarves who had called the region home and were left behind.</li>
     </ul>
 
     <p class="welcome">Welcome to the West Connacht Disaster Zone.</p>
@@ -28,24 +26,18 @@
 
 <style scoped>
 
-.seriesLogo {
-    margin-top: 30%;
-    margin-bottom: 10%;
-    animation: Logo-spin infinite 10s linear; 
-}
-
-@keyframes Logo-spin {
-    from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+    margin-top: 20px;
 }
 
 p {
     line-height: 1.5;
     margin-bottom: 10px;
+}
+
+li {
+    list-style: "\261E";
+    padding-left: 5px;
 }
 
 p.welcome {
