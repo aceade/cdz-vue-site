@@ -14,7 +14,7 @@
                         <a href="index.html">Stories</a>
                     </li>
                     <li>
-                        <a href="index.html">Artwork</a>
+                        <a href="artwork.html">Artwork</a>
                     </li>
                 </ul>
             </nav>
