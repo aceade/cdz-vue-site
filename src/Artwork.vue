@@ -4,6 +4,7 @@
   <main>
     <div class="wrapper">
     <h2 id="scenery">Scenes</h2>
+    <!-- functionally, this means I just need to define the character_slides entry, and the library handles the rest -->
     <splide id="splide_scenes" aria-labelledby="scenery" :options="options" :has-track="false">
       <div class="splide__progress">
         <div class="splide__progress__bar">
@@ -50,19 +51,24 @@ import Navbar from './components/Navbar.vue';
 
 import { Splide, SplideTrack, SplideSlide } from '@splidejs/vue-splide';
 
+// full list of options: https://splidejs.com/guides/options/
 const options = {
-  rewind  : true,
-  gap     : '5rem',
-  autoplay: false,
-  height  : '15rem',
+  rewind  : true,     // go back to the start when done
+  gap     : '1rem',   // gap between images
+  autoplay: true,
+  height  : '15rem',  // slide height. 'rem' units are based upon the font size of the root element
+  autoWidth: true,
+  authHeight: true
 };
 
+// Slightly larger height here, because all of these are around the same dimensions
 const character_options = {
   rewind  : true,
-  gap     : '5rem',
-  autoplay: false,
-  height  : '15rem',
-  
+  gap     : '1rem',
+  autoplay: true,
+  height  : '20rem',
+  autoWidth: true,
+  authHeight: true
 }
 
 const scenery_slides = [{
@@ -80,9 +86,22 @@ const scenery_slides = [{
   {
     src: "https://aceade.files.wordpress.com/2022/01/orc_and_banshee_v2.jpg",
     alt: ""
+  },
+  {
+    src: "https://aceade.files.wordpress.com/2022/04/snakerecon.jpg",
+    alt: "A pair of humanoid snakes lurking in the grass. One holds a telescope to their left eye"
+  },
+  {
+    src: "https://aceade.files.wordpress.com/2022/01/brandubhgame_v2.jpg",
+    alt: "A group of Fomorian/orcish children playing a board game"
+  },
+  {
+    src: "https://aceade.files.wordpress.com/2022/01/youdontneedthese_v2.jpg",
+    alt: "A teenage girl pulling the sunglass off a boy's face to reveal blood-red eyes. A cigarette has fallen from his open mouth"
   }
 ];
 
+// define the slides of characters
 const character_slides = [{
     src: "https://aceade.files.wordpress.com/2022/02/maebh.jpg",
     alt: "A portrait of an orcish girl in a sailor's dress"
@@ -98,6 +117,10 @@ const character_slides = [{
   {
     src: "https://aceade.files.wordpress.com/2021/03/siobhan_portrait_v2_quartersize.png",
     alt: "Portrait of a teenage girl in a grey blouse and red shawl. The left side of her head is stubbled"
+  },
+  {
+    src: "https://aceade.files.wordpress.com/2020/09/aidan_and_grainne_v1.png",
+    alt: ""
   }
 ];
 

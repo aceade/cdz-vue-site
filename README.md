@@ -15,5 +15,8 @@ A practice project to teach myself Vue, based on [a scifi series](https://aceade
 - Footer
     - Credits and links
 
+### Third-party components
+- [Vue Splide](https://github.com/Splidejs/vue-splide)
+
 ## Styling
 TBD.
