@@ -11,13 +11,16 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="index.html">Stories</a>
+                        <a href="index.html">Stories (not ready yet)</a>
                     </li>
                     <li>
                         <a href="artwork.html">Artwork</a>
                     </li>
                     <li>
                         <a href="https://github.com/aceade/cdz-vue-site">View on GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://aceade.net/connacht-disaster-zone/">Original Site</a>
                     </li>
                 </ul>
             </nav>
