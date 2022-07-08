@@ -1,5 +1,5 @@
 import { fileURLToPath, URL } from 'url'
-
+const { resolve } = require('path')
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
@@ -10,6 +10,15 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
+    }
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        // put ALL pages you wish to build here
+        main : resolve(__dirname, "index.html"),
+        artwork: resolve(__dirname, "artwork.html"),
+      }
     }
   }
 })

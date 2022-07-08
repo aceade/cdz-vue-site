@@ -18,5 +18,10 @@ A practice project to teach myself Vue, based on [a scifi series](https://aceade
 ### Third-party components
 - [Vue Splide](https://github.com/Splidejs/vue-splide)
 
+## Running locally
+There are a few ways to run this:
+- `npm run dev`. This runs a local build for development work
+- `npm run build`. This creates a production build inside the **dist/** folder. However, if you wish to run this, you may need to move the **dist/assets** folder to **dist/cdz-vue-site/assets** so each page can find the required files.
+
 ## Styling
 TBD.
