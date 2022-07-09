@@ -11,7 +11,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="index.html">Stories (not ready yet)</a>
+                        <a href="stories.html">Stories</a>
                     </li>
                     <li>
                         <a href="artwork.html">Artwork</a>

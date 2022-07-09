@@ -58,7 +58,7 @@ const options = {
   autoplay: true,
   height  : '15rem',  // slide height. 'rem' units are based upon the font size of the root element
   autoWidth: true,
-  authHeight: true
+  autoHeight: true
 };
 
 // Slightly larger height here, because all of these are around the same dimensions
@@ -68,7 +68,7 @@ const character_options = {
   autoplay: true,
   height  : '20rem',
   autoWidth: true,
-  authHeight: true
+  autoHeight: true
 }
 
 const scenery_slides = [{
@@ -129,42 +129,9 @@ const character_slides = [{
 
 <style>
 @import './assets/base.css';
+@import './assets/main.css';
 @import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-
-}
 
 .splide img {
   max-width: 500px;
