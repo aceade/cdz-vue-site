@@ -18,6 +18,7 @@ export default defineConfig({
         // put ALL pages you wish to build here
         main : resolve(__dirname, "index.html"),
         artwork: resolve(__dirname, "artwork.html"),
+        stories: resolve(__dirname, "stories.html")
       }
     }
   }
