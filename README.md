@@ -21,7 +21,11 @@ A practice project to teach myself Vue, based on [a scifi series](https://aceade
 ## Running locally
 There are a few ways to run this:
 - `npm run dev`. This runs a local build for development work
-- `npm run build`. This creates a production build inside the **dist/** folder. However, if you wish to run this, you may need to move the **dist/assets** folder to **dist/cdz-vue-site/assets** so each page can find the required files.
+- `npm run build`. This creates a production build inside the **dist/** folder.
+- `npm run preview`. Runs a preview of the production site. This will be exposed the outside so that mobile devices can view it.
+
+### Caveats
+Mobile browsers may not be able to render the PDFs as-is. As a fallback, they will display the first few paragraphs and a link to download it instead.
 
 ## Server deployment
 This uses the GitHub Pages action posted [here](https://github.com/peaceiris/actions-gh-pages) to build the site using Vite and then deploy onto a separate branch (gh-pages). This does _not_ happen on main due to branch protection rules.
