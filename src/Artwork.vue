@@ -15,7 +15,7 @@
         <splide-track>
           <SplideSlide v-for="slide in scenery_slides" :key="slide.alt">
             <a :href="slide.src" target="_newtab">
-              <img :src="slide.src" :alt="slide.alt" />
+              <img :src="slide.src" :alt="slide.alt" :title="slide.caption" />
             </a>
           </SplideSlide>
         </splide-track>
@@ -34,7 +34,7 @@
         <splide-track>
           <SplideSlide v-for="slide in character_slides" :key="slide.alt">
             <a :href="slide.src" target="_newtab">
-              <img :src="slide.src" :alt="slide.alt" />
+              <img :src="slide.src" :alt="slide.alt" :title="slide.caption" />
             </a>
           </SplideSlide>
         </splide-track>
@@ -55,72 +55,85 @@ import { Splide, SplideTrack, SplideSlide } from '@splidejs/vue-splide';
 const options = {
   rewind  : true,     // go back to the start when done
   gap     : '1rem',   // gap between images
-  autoplay: true,
-  height  : '15rem',  // slide height. 'rem' units are based upon the font size of the root element
-  autoWidth: true,
-  autoHeight: true
+  autoplay: false,
+  //height  : '15rem',  // slide height. 'rem' units are based upon the font size of the root element
+  autoWidth: false,
+  autoHeight: true,
 };
 
 // Slightly larger height here, because all of these are around the same dimensions
 const character_options = {
   rewind  : true,
-  gap     : '1rem',
+  gap     : '5rem',
   autoplay: true,
   height  : '20rem',
-  autoWidth: true,
-  autoHeight: true
+  autoWidth: false,
+  autoHeight: false,
+  perPage: 2
 }
 
 const scenery_slides = [{
     src: "https://aceade.files.wordpress.com/2020/11/waitingforthetrain-1.jpg",
-    alt: "A pencil sketch of some shady characters ducking behind a wall with a train in the background"
+    alt: "A pencil sketch of some shady characters ducking behind a wall with a train in the background",
+    caption: "Fomorians and snakes hiding from an armoured train"
   },
   {
     src: "https://aceade.files.wordpress.com/2021/02/paisti_v4_quartersize.png",
-    alt: "Four children leaning against a wall in a yard"
+    alt: "Four children leaning against a wall in a yard",
+    caption: "Four Fomorian children in a yard somewhere. L-R: Maebh, Seamus, Diarmuid and Siobhán"
   },
   {
-    src: "https://aceade.files.wordpress.com/2021/04/dropoff_v1.png?w=1024",
-    alt: ""
+    src: "https://aceade.files.wordpress.com/2021/04/dropoff_v1.png",
+    alt: "",
+    caption: "Submarine dropping off a shipment"
   },
   {
     src: "https://aceade.files.wordpress.com/2022/01/orc_and_banshee_v2.jpg",
-    alt: ""
+    alt: "",
+    caption: "L: a banshee. R: a Fomorian"
   },
   {
     src: "https://aceade.files.wordpress.com/2022/04/snakerecon.jpg",
-    alt: "A pair of humanoid snakes lurking in the grass. One holds a telescope to their left eye"
+    alt: "A pair of humanoid snakes lurking in the grass. One holds a telescope to their left eye",
+    caption: "Serpentoids at work"
   },
   {
     src: "https://aceade.files.wordpress.com/2022/01/brandubhgame_v2.jpg",
-    alt: "A group of Fomorian/orcish children playing a board game"
+    alt: "A group of Fomorian/orcish children playing a board game",
+    caption: "Fomorian children playing a game of Brandubh."
   },
   {
     src: "https://aceade.files.wordpress.com/2022/01/youdontneedthese_v2.jpg",
-    alt: "A teenage girl pulling the sunglass off a boy's face to reveal blood-red eyes. A cigarette has fallen from his open mouth"
+    alt: "A teenage girl pulling the sunglass off a boy's face to reveal blood-red eyes. A cigarette has fallen from his open mouth",
+    caption: "Siobhán Ní Chartaí (l) pulling the sunglasses off Diarmuid Uí Flatharta (r). He wears them for a reason, and is a little surprised that anyone would do this and not freak out"
   }
 ];
 
 // define the slides of characters
 const character_slides = [{
     src: "https://aceade.files.wordpress.com/2022/02/maebh.jpg",
-    alt: "A portrait of an orcish girl in a sailor's dress"
+    alt: "A portrait of an orcish girl in a sailor's dress",
+    caption: "A Fomorian girl"
   },
   {
     src: "https://aceade.files.wordpress.com/2022/02/seamus.jpg",
-    alt: "A portrait of an orcish teenager with albinism"
+    alt: "A portrait of an orcish teenager with albinism",
+    caption: "A Fomorian boy with albinism"
   },
   {
     src: "https://aceade.files.wordpress.com/2021/02/diarmuid_smoking_v2_quartersize.png",
-    alt: "Profile portrait of a teenage boy with yellow sunglasses, staring off into the distance. He has a cigarette in his right hand and is exhaling smoke"
+    alt: "Profile portrait of a teenage boy with yellow sunglasses, staring off into the distance. He has a cigarette in his right hand and is exhaling smoke",
+    caption: "Recurring character Diarmuid Uí Flatharta, trying to come to terms with his condition"
   },
   {
     src: "https://aceade.files.wordpress.com/2021/03/siobhan_portrait_v2_quartersize.png",
-    alt: "Portrait of a teenage girl in a grey blouse and red shawl. The left side of her head is stubbled"
+    alt: "Portrait of a teenage girl in a grey blouse and red shawl. The left side of her head is stubbled",
+    caption: "Portrait of recurring character Siobhán Ní Chartaí"
   },
   {
     src: "https://aceade.files.wordpress.com/2020/09/aidan_and_grainne_v1.png",
-    alt: ""
+    alt: "",
+    caption: "A pair of what passes for the upper classes among the Fomorians"
   }
 ];
 
@@ -134,7 +147,7 @@ const character_slides = [{
 
 
 .splide img {
-  max-width: 500px;
+  max-width: 700px;
 }
 
 #splide_scenes {
@@ -149,4 +162,5 @@ const character_slides = [{
 #splide_characters img{
   height: 300px;
 }
+
 </style>
