@@ -55,8 +55,8 @@ import { Splide, SplideTrack, SplideSlide } from '@splidejs/vue-splide';
 const options = {
   rewind  : true,     // go back to the start when done
   gap     : '1rem',   // gap between images
-  autoplay: false,
-  //height  : '15rem',  // slide height. 'rem' units are based upon the font size of the root element
+  autoplay: true,
+  mediaQuery: 'min',
   autoWidth: false,
   autoHeight: true,
 };
@@ -66,9 +66,10 @@ const character_options = {
   rewind  : true,
   gap     : '5rem',
   autoplay: true,
-  height  : '20rem',
-  autoWidth: false,
+  height  : '20rem',  // fixed slide height. 'rem' units are based upon the font size of the root element
+  autoWidth: true,
   autoHeight: false,
+  mediaQuery: 'min',
   perPage: 2
 }
 
@@ -84,12 +85,12 @@ const scenery_slides = [{
   },
   {
     src: "https://aceade.files.wordpress.com/2021/04/dropoff_v1.png",
-    alt: "",
+    alt: "A painting of a submarine dropping off a shipment",
     caption: "Submarine dropping off a shipment"
   },
   {
     src: "https://aceade.files.wordpress.com/2022/01/orc_and_banshee_v2.jpg",
-    alt: "",
+    alt: "A banshee and an orc staring at each other. The orc has a skeptical expression on his face",
     caption: "L: a banshee. R: a Fomorian"
   },
   {
@@ -145,20 +146,71 @@ const character_slides = [{
 @import './assets/main.css';
 @import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
+/* Applies when the screeen is at least 1024 pixels */
+@media (min-width: 1024px) {
+  .splide img {
+    max-width: 900px;
+  }
 
-.splide img {
-  max-width: 700px;
+  #splide_scenes {
+    max-width: 900px;
+  }
+
+  #splide_characters {
+    max-width: 800px;
+  }
+
+}
+@media (min-width: 800px) and (max-width: 900px) {
+  .splide img {
+    max-width: 750px;
+  }
+
+  #splide_scenes {
+    max-width: 750px;
+  }
+
+  #splide_characters {
+    max-width: 600px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  .splide img {
+    width: 500px
+  }
+
+  #splide_scenes {
+    max-width: 700px;
+  }
+
+  #splide_characters {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 500px) {
+  .splide img {
+    max-width: 300px;
+  }
+
+  #splide_scenes {
+    max-width: 700px;
+  }
+
+  #splide_characters {
+    max-width: 700px;
+  }
 }
 
 #splide_scenes {
   min-height: 300px;
-  max-width: 600px;
 }
 
 #splide_characters {
-  min-height: 500px;
-  max-width: 600px;
-}
+    min-height: 500px;
+  }
+
+/* This can use a fixed height */
 #splide_characters img{
   height: 300px;
 }
