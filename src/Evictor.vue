@@ -2,8 +2,8 @@
   <Navbar />
 
   <main>
-    <h2>Smash The Evictor's Status</h2>
-    <p>In which a pair of serpentoid mercenaries are less than impressed with one of their siblings</p>
+    <h2>Smash The Evictor's Statue!</h2>
+    <p class="welcome">In which a pair of serpentoid mercenaries are less than impressed with one of their siblings</p>
 
     <splide id="splide_comic" aria-labelledby="scenery" :options="options" :has-track="false">
 
