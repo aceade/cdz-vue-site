@@ -17,6 +17,10 @@
                         <a href="artwork.html">Artwork</a>
                     </li>
                     <li>
+                        <a href="evictor.html">Smash The Evictor's Statue!</a>
+                    </li>
+                    <hr/>
+                    <li>
                         <a href="https://github.com/aceade/cdz-vue-site">View on GitHub</a>
                     </li>
                     <li>

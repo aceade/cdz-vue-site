@@ -2,6 +2,7 @@ import { fileURLToPath, URL } from 'url'
 const { resolve } = require('path')
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import { resolveDirective } from 'vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -18,7 +19,8 @@ export default defineConfig({
         // put ALL pages you wish to build here
         main : resolve(__dirname, "index.html"),
         artwork: resolve(__dirname, "artwork.html"),
-        stories: resolve(__dirname, "stories.html")
+        stories: resolve(__dirname, "stories.html"),
+        evictor: resolve(__dirname, "evictor.html"),
       }
     }
   }
