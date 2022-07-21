@@ -38,11 +38,9 @@ export default {
         rewind  : true,
         gap     : '5rem',
         autoplay: true,
-        height  : '20rem',  // fixed slide height. 'rem' units are based upon the font size of the root element
-        autoWidth: true,
+        autoWidth: false,
         autoHeight: true,
         mediaQuery: 'min',
-        perPage: 2
       },
       scenery_slides: [{
         src: "https://aceade.files.wordpress.com/2020/11/waitingforthetrain-1.jpg",
@@ -77,33 +75,33 @@ export default {
       {
         src: "https://aceade.files.wordpress.com/2022/01/youdontneedthese_v2.jpg",
         alt: "A teenage girl pulling the sunglass off a boy's face to reveal blood-red eyes. A cigarette has fallen from his open mouth",
-        caption: "Siobhán Ní Chartaí (l) pulling the sunglasses off Diarmuid Uí Flatharta (r). He wears them for a reason, and is a little surprised that anyone would do this and not freak out"
+        caption: "Siobhán Ní Chartaí (l) pulling the sunglasses off Diarmuid Uí Flatharta (r). He is surprised that anyone would do this and not freak out"
       }
       ],
       character_slides: [{
         src: "https://aceade.files.wordpress.com/2022/02/maebh.jpg",
         alt: "A portrait of an orcish girl in a sailor's dress",
-        caption: "A Fomorian girl"
+        caption: "Fomorian girl Maebh Ní Bhrodaí"
       },
       {
         src: "https://aceade.files.wordpress.com/2022/02/seamus.jpg",
         alt: "A portrait of an orcish teenager with albinism",
-        caption: "A Fomorian boy with albinism"
+        caption: "Fomorian boy Seamus Uí Shea"
       },
       {
         src: "https://aceade.files.wordpress.com/2021/02/diarmuid_smoking_v2_quartersize.png",
         alt: "Profile portrait of a teenage boy with yellow sunglasses, staring off into the distance. He has a cigarette in his right hand and is exhaling smoke",
-        caption: "Recurring character Diarmuid Uí Flatharta, trying to come to terms with his condition"
+        caption: "Diarmuid Uí Flatharta, unwillingly Fomorianised"
       },
       {
         src: "https://aceade.files.wordpress.com/2021/03/siobhan_portrait_v2_quartersize.png",
         alt: "Portrait of a teenage girl in a grey blouse and red shawl. The left side of her head is stubbled",
-        caption: "Portrait of recurring character Siobhán Ní Chartaí"
+        caption: "Siobhán Ní Chartaí, unwillingly Fomorianised dwarven citizen"
       },
       {
         src: "https://aceade.files.wordpress.com/2020/09/aidan_and_grainne_v1.png",
-        alt: "",
-        caption: "A pair of what passes for the upper classes among the Fomorians"
+        alt: "A woman in an armchair with a man standing to her left. The man's right arm is around her shoulder.",
+        caption: "'Upper-class' Fomorians Aidan O'Rourke and his wife Gráinne"
       }]
     }
   }
@@ -172,17 +170,17 @@ export default {
   }
 }
 
-/* #splide_scenes {
+#splide_scenes {
   min-height: 300px;
 }
 
 #splide_characters {
   min-height: 500px;
-} */
+}
 
 /* This can use a fixed height */
 #splide_characters img{
-  height: 300px;
+  min-height: 300px;
 }
 
 </style>

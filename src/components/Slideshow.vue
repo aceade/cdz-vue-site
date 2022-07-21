@@ -10,8 +10,10 @@
 
         <splide-track>
             <SplideSlide v-for="slide in slides" :key="slide.alt">
-              <img :src="slide.src" :title="slide.alt" />
-              <label :data="slide.caption"></label>
+              <div>
+                <label>{{slide.caption}}</label>
+                <img :src="slide.src" :title="slide.alt" />
+              </div>
           </SplideSlide>
         </splide-track>
     </splide>
@@ -65,5 +67,10 @@ export default {
 
 .splide--slide {
     max-width: 900px;
+}
+
+.splide--slide label {
+  min-height: 50px;
+  display: inline-block;
 }
 </style>

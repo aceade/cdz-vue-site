@@ -25,7 +25,7 @@ export default {
         gap     : '1rem',   // gap between images
         autoplay: true,
         mediaQuery: 'min',
-        autoWidth: false,
+        autoWidth: true,
         autoHeight: true,
       },
       slides: [{
