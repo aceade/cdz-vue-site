@@ -1,6 +1,7 @@
 <template>
     
-    <splide :id="el_id" :options="options" :has-track="has-track">
+    <!-- Defines the splide entry. Pass in the options, slides and whether or not it has a track-->
+    <splide :options="options" :has-track="has-track">
 
         <div class="splide__progress">
             <div class="splide__progress__bar">
@@ -9,7 +10,8 @@
 
         <splide-track>
             <SplideSlide v-for="slide in slides" :key="slide.alt">
-              <img :src="slide.src" :alt="slide.alt" />
+              <img :src="slide.src" :title="slide.alt" />
+              <label :data="slide.caption"></label>
           </SplideSlide>
         </splide-track>
     </splide>
@@ -23,8 +25,13 @@ export default {
     props: {
         slides: Array,
         options: Object,
-        hasTrack: Boolean,
-        el_id: String
+        hasTrack: {
+          type: Boolean,
+          default: false
+        }
+    },
+    created() {
+      console.log("Options:", this.options, "\nSlides:", this.slides)
     },
     components: {
         Splide, SplideTrack, SplideSlide
@@ -56,7 +63,7 @@ export default {
   }
 }
 
-#splide01 {
+.splide--slide {
     max-width: 900px;
 }
 </style>
