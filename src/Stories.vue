@@ -46,7 +46,8 @@ export default {
                 autoHeight: true,
                 perPage: 1,
                 rewind: true
-            }
+            },
+            objectType: "pdf",
         }
     }
 }
@@ -59,7 +60,7 @@ export default {
 
     <main>
         <div class="wrapper">
-            <PdfSlideshow :options="options" :stories="stories"></PdfSlideshow>
+            <PdfSlideshow :options="options" :slides="stories" :object-type="objectType"></PdfSlideshow>
         </div>
     </main>
 </template>

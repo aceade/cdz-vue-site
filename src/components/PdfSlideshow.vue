@@ -6,10 +6,10 @@
         </div>
 
         <div style="position: relative">
-            <splide-track>
-            <SplideSlide v-for="slide in stories" :key="slide.title">
+            <splide-track v-if="objectType === 'pdf'">
+            <SplideSlide v-for="slide in slides" :key="slide.title">
                 <object aria-labelledby="storyTitle" class="story_embed" type="application/pdf" width="100%" :data="slide.src">
-                    <label id="storyTitle" :data="slide.title"> {{slide.title}}</label>
+                    <label id="storyTitle" > {{slide.title}}</label>
                     <!-- This is a fallback for browsers that don't show embedded PDFs -->
                     <p v-for="entry in slide.intro">
                         {{entry}}
@@ -17,6 +17,14 @@
                     <hr/>
                     <a :href="slide.src">Download full version</a>
                 </object>
+            </SplideSlide>
+            </splide-track>
+        
+            <splide-track v-if="objectType === 'video'">
+            <SplideSlide v-for="slide in slides" :key="slide.title">
+                <label id="storyTitle"> {{slide.title}}</label>
+                <iframe :src="slide.src" :width="slide.width" :height="slide.height" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                
             </SplideSlide>
             </splide-track>
         </div>
@@ -28,15 +36,21 @@ import { Splide, SplideTrack, SplideSlide } from '@splidejs/vue-splide';
 
 export default {
     props: {
-        stories: Array,
+        slides: Array,
         options: Object,
+        objectType: {
+            type: String,
+            validator(value) {
+                return ["pdf", "video"].includes(value)
+            }
+        },
         hasTrack: {
           type: Boolean,
           default: false
         }
     },
     created() {
-      console.log("Options:", this.options, "\nSlides:", this.slides)
+      console.log("Options:", this.options, "\nSlides:", this.slides, "object type:", this.objectType)
     },
     components: {
         Splide, SplideTrack, SplideSlide
@@ -57,6 +71,10 @@ export default {
   min-height: 500px;
   width: 100%;
   overflow: hidden;
+}
+
+#splide_stories iframe{
+    min-height: 400px;
 }
 
 .splide__slide label {
