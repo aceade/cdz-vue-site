@@ -4,14 +4,18 @@ A practice project to teach myself Vue, based on [a scifi series](https://aceade
 ## Required pages
 - Home
 - Artwork. Will contain carousels of different categories, as based off [this page](https://aceade.wordpress.com/connacht-disaster-zone/connacht-disaster-zone-artwork/). The images will included as direct links from my main site.
-- Stories. These will be displayed as plain text for the user to read.
+- Stories. These will be displayed as embedded PDFs.
 - Collections. These will be displayed as embedded PDFs.
+- Timelapse. Not in the original spec; contains embedded videos of timelapses.
 
 
 ### Common elements
 - Header
     - navigation bar
     - "Contact me" link (which will open a modal form to email me)
+- Components
+    - Slideshow. Displays a carousel of images.
+    - PdfSlideshow. Originally used just to display PDFs; extended to include videos as well.
 - Footer
     - Credits and links
 
@@ -25,7 +29,8 @@ There are a few ways to run this:
 - `npm run preview`. Runs a preview of the production site. This will be exposed the outside so that mobile devices can view it.
 
 ### Caveats
-Mobile browsers may not be able to render the PDFs as-is. As a fallback, they will display the first few paragraphs and a link to download it instead.
+- Mobile browsers may not be able to render the PDFs as-is. As a fallback, they will display the first few paragraphs and a link to download it instead.
+- Embedded video quality may not be the best. However, the user will be able to view on Youtube.
 
 ## Server deployment
 This uses the GitHub Pages action posted [here](https://github.com/peaceiris/actions-gh-pages) to build the site using Vite and then deploy onto a separate branch (gh-pages). This does _not_ happen on main due to branch protection rules.

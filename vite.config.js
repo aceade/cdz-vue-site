@@ -21,6 +21,7 @@ export default defineConfig({
         artwork: resolve(__dirname, "artwork.html"),
         stories: resolve(__dirname, "stories.html"),
         evictor: resolve(__dirname, "evictor.html"),
+        recordings: resolve(__dirname, "recordings.html"),
       }
     }
   }

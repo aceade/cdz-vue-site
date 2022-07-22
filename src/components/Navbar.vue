@@ -17,6 +17,9 @@
                         <a href="artwork.html">Artwork</a>
                     </li>
                     <li>
+                        <a href="recordings.html">Timelapses</a>
+                    </li>
+                    <li>
                         <a href="evictor.html">Smash The Evictor's Statue!</a>
                     </li>
                     <hr/>
