@@ -5,7 +5,7 @@
     <h2>Smash The Evictor's Statue!</h2>
     <p class="welcome">In which a pair of serpentoid mercenaries are less than impressed with one of their siblings</p>
 
-    <Slideshow id="splide_comic" :options="slide_options" :slides="slides" :has-track="false"></Slideshow>
+    <Slideshow id="splide_comic" :options="slide_options" :slides="slides" :has-track="false" :collapsible="collapsible"></Slideshow>
   </main>
 </template>
 
@@ -20,6 +20,7 @@ export default {
   },
   data() {
     return {
+      collapsible: false,
       slide_options : {
         rewind  : true,     // go back to the start when done
         gap     : '1rem',   // gap between images
