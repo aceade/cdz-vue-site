@@ -8,6 +8,9 @@
 
       <h2 id="characters">Characters</h2>
       <Slideshow id="splide_characters" :options="character_options" :slides="character_slides" ></Slideshow>
+
+      <h2 id="posters">Posters</h2>
+      <Slideshow id="splide_posters" :options="options" :slides="poster_slides" ></Slideshow>
     </div>
 
     
@@ -102,6 +105,21 @@ export default {
         src: "https://aceade.files.wordpress.com/2020/09/aidan_and_grainne_v1.png",
         alt: "A woman in an armchair with a man standing to her left. The man's right arm is around her shoulder.",
         caption: "'Upper-class' Fomorians Aidan O'Rourke and his wife Gráinne"
+      }],
+      poster_slides: [{
+        src: "https://aceade.files.wordpress.com/2022/01/wiresharks_warning_poster.png",
+        alt: "A poster of a shark looming up towards letters floating on the surface of the sea. Above the poster are the words \"Careless communications cause casualties. Wireless security is your responsibility\". Below the image are some helpful tips",
+        caption: "Loose Lips Lose Lives!"
+      },
+      {
+        src: "https://aceade.files.wordpress.com/2021/09/tappers_poster.jpg",
+        alt: "A poster of two shady-looking characters in an alleyway. One has planted themselves against a wall and holds a revolver in the air. The other kneels next to a crate and holds one hand to their ear; the other hand is writing something",
+        caption: "Beware the Tapper!"
+      },
+      {
+        src: "https://aceade.files.wordpress.com/2021/10/inquisitor_v4.jpg",
+        alt: "A poster of a hooded character in a mask, sandwiched between the words \"The Inquisition is Always Watching\" in Irish",
+        caption: "Translation: The (Dwarven) Inquisition is Always Watching"
       }]
     }
   }
@@ -125,7 +143,7 @@ export default {
   }
 
   #splide_characters {
-    max-width: 800px;
+    max-width: 900px;
   }
 
 }
@@ -176,10 +194,15 @@ export default {
 
 #splide_characters {
   min-height: 500px;
+  height: auto;
 }
 
 /* This can use a fixed height */
 #splide_characters img{
+  min-height: 300px;
+}
+
+#splide_scenes img {
   min-height: 300px;
 }
 
