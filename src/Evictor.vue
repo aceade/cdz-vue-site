@@ -26,8 +26,9 @@ export default {
         gap     : '1rem',   // gap between images
         autoplay: true,
         mediaQuery: 'min',
-        autoWidth: true,
+        autoWidth: false,
         autoHeight: true,
+        perPage: 1
       },
       slides: [{
         src: "https://aceade.files.wordpress.com/2022/03/panel1-1.jpg",
@@ -88,6 +89,12 @@ export default {
 }
 
 #splide_comic {
-    max-width: 900px;
+    max-width: 800px;
 }
+.splide img {
+  max-height: 800px;
+  margin: auto;
+  display: flex;
+}
+
 </style>

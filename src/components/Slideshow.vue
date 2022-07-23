@@ -79,6 +79,11 @@ export default {
   }
 }
 
+img {
+  margin: auto;
+  display: flex;
+}
+
 .splide--slide {
     max-width: 900px;
 }
