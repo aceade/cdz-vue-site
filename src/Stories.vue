@@ -42,14 +42,16 @@ export default {
                     src: "https://aceade.files.wordpress.com/2021/03/samples.pdf",
                     title: "Samples",
                     intro: [
-                        "The knot in Diarmuid’s stomach was growing tighter. He’d been lying or sitting on the infirmary bed for nearly two hours – if the clock on the wall was right – ever since cleaning his teeth after breakfast. He did not want to be there, and the tongue lashing he’d received when saying so did not help."
+                        "The knot in Diarmuid’s stomach was growing tighter. He’d been lying or sitting on the infirmary bed for nearly two hours – if the clock on the wall was right – ever since cleaning his teeth after breakfast. He did not want to be there, and the tongue lashing he’d received when saying so did not help.",
+                        "He glanced around the room again. Bare white walls, alternating grey and white tiles on the floor, and seven more beds. Locked medicine cabinets and a couple of workbenches lined the far wall, with a sink halfway down the room. The unwanted smell of antiseptic came from a door at the far end of the room – and he jerked his head away, trying to avoid the word printed on the door. Belatedly, he noticed that there was a compact gramophone on a table down the other end."
                     ]
                 },
                 {
                     src: "https://aceade.files.wordpress.com/2021/03/slave-hunt.pdf",
                     title: "Slave Hunt",
                     intro: [
-                        "Dominic Barr was not having a good day. Standing with his back to the door and glaring out the window at Killary Harbour, choosing to focus on the wrecks of the old dwarven trading fleet that littered the head of the fjord, he mentally reviewed the sources of his confounded anger"
+                        "Dominic Barr was not having a good day. Standing with his back to the door and glaring out the window at Killary Harbour, choosing to focus on the wrecks of the old dwarven trading fleet that littered the head of the fjord, he mentally reviewed the sources of his confounded anger.",
+                        "Firstly, two fresh, surface-born slaves had escaped overnight – a quarter of the goods from the last raid gone, and no indication of how they had managed it! Secondly, the trackers had returned empty-handed. And thirdly, this was less than a month after the last escape – which had ended in a fight with a group of Fir Nathair that had dared to claim the chattel for themselves! Was it really so much to wish for a smooth operation?"
                     ]
                 },
                 {
@@ -64,7 +66,7 @@ export default {
                     title: "A Useful Politician",
                     intro: [
                         "Just one letter. That was all she had to do – post a letter. The gentleman with the genial smile, vaguely Continental accent and the icy blue eyes had paid her two pounds for a penny-rate letter, already stamped and addressed. He’d hinted that she might find it useful to write one herself",
-                        "Mrs Lynch smiled to herself as she approached the postbox just outside Heuston Station, revealing a haphazard array of tobacco-stained teeth. Hardly the best pay for her little favours, but quite good for such a trivial task and the extra two pounds would be very useful if Jimmy, Anna or Michael caught the flu again"
+                        "Mrs Lynch smiled to herself as she approached the postbox just outside Heuston Station, revealing a haphazard array of tobacco-stained teeth. Hardly the best pay for her little favours, but quite good for such a trivial task and the extra two pounds would be very useful if Jimmy, Anna or Michael caught the flu again."
                     ]
                 },
                 {
@@ -86,9 +88,9 @@ export default {
                 }
             ],
             options: {
-                autoPlay:false,
+                autoPlay: false,
                 autoWidth: false,
-                autoHeight: true,
+                autoHeight: false,
                 perPage: 1,
                 rewind: true
             },

@@ -11,7 +11,7 @@
                 <object aria-labelledby="storyTitle" class="story_embed" type="application/pdf" width="100%" :data="slide.src">
                     <label id="storyTitle" > {{slide.title}}</label>
                     <!-- This is a fallback for browsers that don't show embedded PDFs -->
-                    <p v-for="entry in slide.intro">
+                    <p class="intro" v-for="entry in slide.intro">
                         {{entry}}
                     </p>
                     <hr/>
@@ -99,6 +99,10 @@ export default {
 .splide__slide a {
     font-size: 18px;
     margin-top: 20px!important;
+}
+
+p.intro {
+    padding-top: 5px;
 }
 
 </style>
