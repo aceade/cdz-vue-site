@@ -55,6 +55,35 @@ export default {
                     ]
                 },
                 {
+                    src: "https://aceade.files.wordpress.com/2021/03/first-date.pdf",
+                    title: "First Date",
+                    intro: [
+                        "“Gráinne?”",
+                        "Gráinne flinched at the sudden noise, hands instinctively flying to her ears in spite of the fact that it was a whisper. She lowered them just as quickly as she saw Deirdre standing in the doorway, shaking her head with a smile on her face. Why was she happy?",
+                        "“Head in the clouds again? You’ve already forgotten, haven’t you.”",
+                        "“What have I forgotten?” Gráinne asked, frowning as much as she knew how to. Her head wasn’t in the clouds – it was attached to her shoulders! How could you even get clouds underground, anyway?",
+                        "“We’re supposed to meet the O’Rourkes! Let me check your dress.”"
+                    ]
+                },
+                {
+                    src: "https://aceade.files.wordpress.com/2021/03/spymaster.pdf",
+                    title: "In Which The Kingdom of Scandinavia Plans To Troll The British Navy",
+                    intro: [
+                        "The swift, efficient rat-tat-tat on the door broke the Admiral’s concentration, just as the cigarette lighter had come to life. Scowling briefly out one side of his mouth, he held the old bullet case to the top of the pipe and puffed as the tobacco began to smoulder. Even before he could ask who it was, the door swung halfway open to reveal a woman in a severe navy-blue tunic that marked her as a Lieutenant. Icy pale blue eyes peered out of a face that was lined with middle-age, her mouth turned down in a disapproving look.",
+                        "“Sir, Mr Bjornsson has arrived,” she announced in a clipped, efficient tone.",
+                        "“Thank you, Miss Nilsdottir. Send him in,” the Admiral growled. She withdrew her head long enough to hold the door open, gesturing for the visitor to enter"
+                    ]
+                },
+                {
+                    src: "https://aceade.files.wordpress.com/2021/03/interception.pdf",
+                    title: "Interception of an enciphered message from orc-held territory",
+                    intro: [
+                        "The crackle of static in his ears and the flashing blue light to his left caused Able Seaman Davis to shoot upright from where he had slouched in the wooden chair, his right hand resting idly on the notepad on his workstation. Pressing his left hand to his earphones, he leaned forwards and hurriedly transcribed the short, staccato bleeps and longer creeps in the approved shorthand terminology.",
+                        "“Found something, Davis?” the Lieutenant asked. He automatically nodded, focussing on converting the shorthand transcription into something more legible. Even as he finished and moved onto translating the dots and dashes into possible letters, something about it started to niggle at the back of his mind. It almost looked as though...",
+                        "“Sir, I don’t think this is English.” He handed the piece of flash paper over to the Lieutenant, who accepted it with a raised eyebrow that turned into a quizzical frown as he perused the message. Davis glanced over at the door into the main passageway, satisfying himself that it was closed. On the wall next to the door was a poster of a shark looming up from the deep, aiming straight for a stream of letters on the surface. He turned back to his wireless set, listening for any other messages."
+                    ]
+                },
+                {
                     src: "https://aceade.files.wordpress.com/2021/03/board_report.pdf",
                     title: "Board Report",
                     intro: [
@@ -79,11 +108,19 @@ export default {
                     ]
                 },
                 {
-                    src: "https://aceade.files.wordpress.com/2021/10/theinquisitionareexpected.pdf",
-                    title: "The Dwarven Inquisition Are Expected",
+                    src: "https://aceade.files.wordpress.com/2021/07/serpentoid_site_recon.pdf",
+                    title: "Serpentoid Site Scouts",
                     intro: [
                         "The knock on the door was something that Colonel Munro had been expecting for the last five or ten minutes, after the telephone on his desk had warned him that the visitors had arrived at the inner security checkpoints. Closing the pair of dossiers and the report that lay on his desk, he looked up and barked a command to enter. His adjutant swung the door open, announcing that the visitors from the Containment Office had arrived",
                         "“Send them in, Cole. And have somebody fetch Dr Magnusson,” Munro ordered, standing up. The lieutenant withdrew and stepped aside, revealing a pair of nuns who were both clad in dark khaki habits. The one on Munro’s right was just about four feet high, with larger eyes and a pair of sun goggles dangling around her neck – clearly a woman of the tunnels. The other one was apparently human and, with far fewer lines on her face, appeared to be younger. Neither bore any obvious sign of a particular order, but they didn’t need to."
+                    ]
+                },
+                {
+                    src: "https://aceade.files.wordpress.com/2021/10/theinquisitionareexpected.pdf",
+                    title: "The Dwarven Inquisition Are Expected",
+                    intro: [
+                        "“Smell that?” Kerigoo hissed, his tongue flickering as he tried to identify the unusual scent on the wind. Debraa slowly lowered her spyglass and began to taste the air in turn, her eyes roving over the human fort that sat four hundred furlongs to their south. She nodded silently; it smelt quite different to wood or peat smoke, yet somehow similar enough that it had to be something burning.",
+                        "The blockhouse they had been hired to examine sat inside a ring of barbed wire approximately twenty furlongs to the west of the old town of Oughterard, along what had once been the primary – read only – overland route towards the port of Galway. Of particular note were the pair of parallel metal tracks that ran adjacent to the old road, stopping in a faux-rock barrier. They looked similar to the mine cart tracks in the tunnels under the hills – or they would have, if they had been carved into the underlying rock and not lain on top of thick wooden boards."
                     ]
                 }
             ],
