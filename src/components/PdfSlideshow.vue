@@ -11,7 +11,7 @@
                 <object aria-labelledby="storyTitle" class="story_embed" type="application/pdf" width="100%" :data="slide.src">
                     <label id="storyTitle" > {{slide.title}}</label>
                     <!-- This is a fallback for browsers that don't show embedded PDFs -->
-                    <p v-for="entry in slide.intro">
+                    <p class="intro" v-for="entry in slide.intro">
                         {{entry}}
                     </p>
                     <hr/>
@@ -52,9 +52,6 @@ export default {
           default: false
         }
     },
-    created() {
-        console.log("Options:", this.options, "\nSlides:", this.slides, "object type:", this.objectType)
-    },
     components: {
         Splide, SplideTrack, SplideSlide
     }
@@ -65,14 +62,19 @@ export default {
 
 @import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
+/**
+    The width settings here and in the object/PDF entry are to account for the scrollbar in the PDF
+ */
 .splide__slide {
     min-height: 500px;
-    width: 100%;
+    width: calc(100% - 10px)
 
 }
 .splide__slide object{
     min-height: 500px;
     overflow: hidden;
+    width: calc(100% - 20px);
+    margin-left: -10px;
 }
 
 /* Iframes with videos will be centred. PDFs will NOT because this screws around with the fallback text */
@@ -97,6 +99,10 @@ export default {
 .splide__slide a {
     font-size: 18px;
     margin-top: 20px!important;
+}
+
+p.intro {
+    padding-top: 5px;
 }
 
 </style>
