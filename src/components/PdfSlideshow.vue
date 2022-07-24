@@ -53,7 +53,7 @@ export default {
         }
     },
     created() {
-      console.log("Options:", this.options, "\nSlides:", this.slides, "object type:", this.objectType)
+        console.log("Options:", this.options, "\nSlides:", this.slides, "object type:", this.objectType)
     },
     components: {
         Splide, SplideTrack, SplideSlide
@@ -65,19 +65,21 @@ export default {
 
 @import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
-#splide_stories {
-  min-height: 500px;
-  width: 100%;
+.splide__slide {
+    min-height: 500px;
+    width: 100%;
 
 }
-#splide_stories object{
-  min-height: 500px;
-  width: 100%;
-  overflow: hidden;
+.splide__slide object{
+    min-height: 500px;
+    overflow: hidden;
 }
 
-#splide_stories iframe{
+/* Iframes with videos will be centred. PDFs will NOT because this screws around with the fallback text */
+.splide__slide iframe{
     min-height: 400px;
+    margin: auto!important;
+    display: flex!important;
 }
 
 .splide__slide label {
@@ -88,6 +90,7 @@ export default {
 }
 
 .splide__slide {
+    /* Fallback text will have indentation */
     text-indent: 3ch;
 }
 
