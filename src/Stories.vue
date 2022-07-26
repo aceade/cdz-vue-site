@@ -143,6 +143,7 @@ export default {
     <Navbar/>
 
     <main>
+        <h1>Stories</h1>
         <div class="wrapper">
             <PdfSlideshow :options="options" :slides="stories" :object-type="objectType"></PdfSlideshow>
         </div>

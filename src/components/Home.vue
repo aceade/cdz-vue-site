@@ -28,6 +28,7 @@
 
 h2 {
     margin-top: 20px;
+    font-family: "Gaelic", serif;
 }
 
 p {
@@ -40,10 +41,4 @@ li {
     padding-left: 5px;
 }
 
-p.welcome {
-    font-size:20px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 </style>
