@@ -42,6 +42,10 @@
     font-size: 25px;
 }
 
+.navigation a {
+    font-family: "Gaelic", serif;
+}
+
 .navigation li {
     list-style: none;
     margin-left: -15px;
