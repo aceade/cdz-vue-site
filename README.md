@@ -21,6 +21,8 @@ A practice project to teach myself Vue, based on [a scifi series](https://aceade
 ### Third-party components
 - [Vue Splide](https://github.com/Splidejs/vue-splide)
 - [Bunchló Gael font](https://www.ffonts.net/Bunchl.font) - originally created by Vincent Morley in 1996.
+- [Mastodon icon](https://fontawesome.com/icons/mastodon?s=brands)
+- [Twitter icon](https://fontawesome.com/icons/twitter?s=brands)
 
 ## Running locally
 There are a few ways to run this:

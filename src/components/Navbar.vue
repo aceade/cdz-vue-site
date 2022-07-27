@@ -36,20 +36,6 @@
 </template>
 
 <style scoped>
-.navigation {
-    width: 100%;
-    margin-bottom: 20px;
-    font-size: 25px;
-}
-
-.navigation a {
-    font-family: "Gaelic", serif;
-}
-
-.navigation li {
-    list-style: none;
-    margin-left: -15px;
-}
 
 header {
   line-height: 1.5;

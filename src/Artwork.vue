@@ -13,7 +13,7 @@
       <Slideshow id="splide_posters" :options="options" :slides="poster_slides" ></Slideshow>
     </div>
 
-    
+    <Footer/>
 
   </main>
 </template>
@@ -21,11 +21,13 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import Slideshow from './components/Slideshow.vue';
+import Footer from './components/Footer.vue'
 
 export default {
   components: {
     Navbar,
-    Slideshow
+    Slideshow,
+    Footer
   },
   data() {
     return {

@@ -65,3 +65,18 @@ h2 {
   font-family: "Gaelic";
   src: url("fonts/Bunchl.ttf");
 }
+
+.navigation {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.navigation a {
+  font-family: "Gaelic", serif;
+}
+
+.navigation li {
+  list-style: none;
+  margin-left: -15px;
+}
