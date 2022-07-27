@@ -6,6 +6,7 @@
     <p class="welcome">In which a pair of serpentoid mercenaries are less than impressed with one of their siblings</p>
 
     <Slideshow id="splide_comic" :options="slide_options" :slides="slides" :has-track="false" :collapsible="collapsible"></Slideshow>
+    <hr/>
     <Footer/>
   </main>
   
