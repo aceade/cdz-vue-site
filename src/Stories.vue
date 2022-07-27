@@ -1,13 +1,13 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import PdfSlideshow from './components/PdfSlideshow.vue';
-import PdfSlideshow1 from './components/PdfSlideshow.vue';
+import Footer from './components/Footer.vue'
 
 export default {
     components: {
     Navbar,
     PdfSlideshow,
-    PdfSlideshow1
+    Footer
 },
     data() {
         return {
@@ -147,6 +147,8 @@ export default {
         <div class="wrapper">
             <PdfSlideshow :options="options" :slides="stories" :object-type="objectType"></PdfSlideshow>
         </div>
+        <hr/>
+        <Footer/>
     </main>
 </template>
 

@@ -5,10 +5,10 @@
     <div class="wrapper">
       <h2 id="scenery">Timelapses</h2>
       <PdfSlideshow id="videos" :options="options" :slides="video_slides" :object-type="objectType" ></PdfSlideshow>
-
     </div>
 
-    
+    <hr/>
+    <Footer/>    
 
   </main>
 </template>
@@ -16,11 +16,13 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import PdfSlideshow from './components/PdfSlideshow.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   components: {
     Navbar,
-    PdfSlideshow
+    PdfSlideshow,
+    Footer
   },
   data() {
     return {
@@ -116,10 +118,6 @@ export default {
     max-width: 700px;
   }
 
-}
-
-#videos {
-  min-height: 700px;
 }
 
 

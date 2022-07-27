@@ -6,17 +6,22 @@
     <p class="welcome">In which a pair of serpentoid mercenaries are less than impressed with one of their siblings</p>
 
     <Slideshow id="splide_comic" :options="slide_options" :slides="slides" :has-track="false" :collapsible="collapsible"></Slideshow>
+    <hr/>
+    <Footer/>
   </main>
+  
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
 import Slideshow from './components/Slideshow.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   components: {
     Navbar,
-    Slideshow
+    Slideshow,
+    Footer
   },
   data() {
     return {

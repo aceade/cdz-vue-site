@@ -1,6 +1,7 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
 import Home from './components/Home.vue'
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -8,7 +9,10 @@ import Home from './components/Home.vue'
 
   <main>
     <Home/>
+    <hr/>
+    <Footer/>
   </main>
+
 </template>
 
 <style>
