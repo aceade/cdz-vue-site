@@ -2,8 +2,6 @@
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue'
 // stories broken down into individual components
-import CruaghIsland from './components/stories/CruaghIsland.vue';
-import DetentionCenterTales from './components/stories/DetentionCentreTales.vue';
 import Snakepeople from './components/stories/Snakepeople.vue';
 import SpycrabsAndWarbirds from './components/stories/SpycrabsAndWarbirds.vue';
 import ORourke from './components/stories/ORourke.vue';
@@ -11,8 +9,6 @@ import ORourke from './components/stories/ORourke.vue';
 export default {
     components: {
     Navbar,
-    CruaghIsland,
-    DetentionCenterTales,
     Snakepeople,
     SpycrabsAndWarbirds,
     ORourke,

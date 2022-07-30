@@ -49,6 +49,21 @@ export default {
 @import './assets/base.css';
 @import './assets/main.css';
 
+/*
+ *  Override these on small screens.
+ */
+@media (max-width: 512px) {
+  .wrapper img {
+    float: unset;
+    width: 100%!important;
+  }
+  .float-right {
+    float: unset;
+    width: 100%!important;
+  }
+
+}
+
 .wrapper img {
   float: left;
   width: calc(60% - 5px);
