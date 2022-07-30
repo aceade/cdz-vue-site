@@ -1,5 +1,4 @@
 <template>
-    <a href="https://www.buymeacoffee.com/aceade/e/68319">Collection available on BuyMeACoffee</a>
     <PdfSlideshow :options="options" :slides="stories" :object-type="objectType"></PdfSlideshow>
 </template>
 

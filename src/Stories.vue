@@ -19,14 +19,6 @@ export default {
     Footer,
     },
     props: {
-        showCruagh: {
-            type: Boolean,
-            default: true
-        },
-        showDetention: {
-            type: Boolean,
-            default: true
-        },
         showSnakes: {
             type: Boolean,
             default: true
@@ -51,16 +43,6 @@ export default {
     <main>
         <h1>Stories</h1>
         <div class="wrapper">
-            <div>
-                <h3 @click="showCruagh = !showCruagh">The Cruagh Island Affair</h3>
-                <CruaghIsland class="storiesComponent" v-if="showCruagh"/>
-                <hr/>
-            </div>
-            <div>
-                <h3 @click="showDetention = !showDetention">Tales From A Fomorian Detention Centre</h3>
-                <DetentionCenterTales class="storiesComponent" v-if="showDetention"/>
-                <hr/>
-            </div>
             <div>
                 <h3 @click="showSnakes = !showSnakes">Snakepeople of Conneamara</h3>
                 <Snakepeople class="storiesComponent" v-if="showSnakes"/>
