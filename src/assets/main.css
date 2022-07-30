@@ -80,3 +80,11 @@ h2 {
   list-style: none;
   margin-left: -15px;
 }
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}

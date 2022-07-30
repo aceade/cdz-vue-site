@@ -20,6 +20,8 @@ export default defineConfig({
         main : resolve(__dirname, "index.html"),
         artwork: resolve(__dirname, "artwork.html"),
         stories: resolve(__dirname, "stories.html"),
+        cruagh: resolve(__dirname, "cruagh.html"),
+        detention: resolve(__dirname, "detention.html"),
         evictor: resolve(__dirname, "evictor.html"),
         recordings: resolve(__dirname, "recordings.html"),
       }

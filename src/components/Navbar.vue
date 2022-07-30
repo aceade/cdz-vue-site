@@ -11,17 +11,28 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="stories.html">Stories</a>
+                        <a href="stories.html">Stories & Collections</a>
+                        <ul>
+                            <li>
+                                <a href="cruagh.html">The Cruagh Island Affair</a>
+                            </li>
+                            <li>
+                                <a href="detention.html">Detention Centre Tales</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="artwork.html">Artwork</a>
+                        <ul>
+                            <li>
+                                <a href="recordings.html">Timelapses</a>
+                            </li>
+                            <li>
+                                <a href="evictor.html">Smash The Evictor's Statue!</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="recordings.html">Timelapses</a>
-                    </li>
-                    <li>
-                        <a href="evictor.html">Smash The Evictor's Statue!</a>
-                    </li>
+                   
                     <hr/>
                     <li>
                         <a href="https://github.com/aceade/cdz-vue-site">View on GitHub</a>
