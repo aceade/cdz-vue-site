@@ -1,13 +1,20 @@
 <script>
 import Navbar from './components/Navbar.vue';
-import PdfSlideshow from './components/PdfSlideshow.vue';
 import Footer from './components/Footer.vue'
+// stories broken down into individual components
+import CruaghIsland from './components/stories/CruaghIsland.vue';
+import DetentionCenterTales from './components/stories/DetentionCentreTales.vue';
+import Snakepeople from './components/stories/Snakepeople.vue';
+import SpycrabsAndWarbirds from './components/stories/SpycrabsAndWarbirds.vue';
 
 export default {
     components: {
     Navbar,
-    PdfSlideshow,
-    Footer
+    CruaghIsland,
+    DetentionCenterTales,
+    Snakepeople,
+    SpycrabsAndWarbirds,
+    Footer,
 },
     data() {
         return {
@@ -145,7 +152,27 @@ export default {
     <main>
         <h1>Stories</h1>
         <div class="wrapper">
-            <PdfSlideshow :options="options" :slides="stories" :object-type="objectType"></PdfSlideshow>
+            <div>
+                <h3>The Cruagh Island Affair</h3>
+                <CruaghIsland/>
+            </div>
+            <div>
+                <h3>Tales From A Fomorian Detention Centre</h3>
+                <DetentionCenterTales/>
+            </div>
+            <div>
+                <h3>Snakepeople of Conneamara</h3>
+                <Snakepeople/>
+            </div>
+            <div>
+                <h3>Warfare and Espionage</h3>
+                <SpycrabsAndWarbirds/>
+            </div>
+            <div>
+                <h3>Miscellaneous</h3>
+                <h3>TODO</h3>
+            </div>
+            
         </div>
         <hr/>
         <Footer/>
@@ -155,4 +182,14 @@ export default {
 <style>
 @import './assets/base.css';
 @import './assets/main.css';
+
+h3 {
+    text-align: center;
+    font-family: "Gaelic", serif;
+    margin-top: 10px;
+}
+
+a {
+    text-align: center;
+}
 </style>
