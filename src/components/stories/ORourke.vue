@@ -13,20 +13,22 @@ export default {
         return {
             stories: [
                 {
-                    src: "https://aceade.files.wordpress.com/2021/03/spymaster.pdf",
-                    title: "In Which The Kingdom of Scandinavia Plans To Troll The British Navy",
+                    src: "https://aceade.files.wordpress.com/2021/03/first-date.pdf",
+                    title: "First Date",
                     intro: [
-                        "The swift, efficient rat-tat-tat on the door broke the Admiral’s concentration, just as the cigarette lighter had come to life. Scowling briefly out one side of his mouth, he held the old bullet case to the top of the pipe and puffed as the tobacco began to smoulder. Even before he could ask who it was, the door swung halfway open to reveal a woman in a severe navy-blue tunic that marked her as a Lieutenant. Icy pale blue eyes peered out of a face that was lined with middle-age, her mouth turned down in a disapproving look.",
-                        "“Sir, Mr Bjornsson has arrived,” she announced in a clipped, efficient tone.",
+                        "“Gráinne?”",
+                        "Gráinne flinched at the sudden noise, hands instinctively flying to her ears in spite of the fact that it was a whisper. She lowered them just as quickly as she saw Deirdre standing in the doorway, shaking her head with a smile on her face. Why was she happy?",
+                        "“Head in the clouds again? You’ve already forgotten, haven’t you.”",
+                        "“What have I forgotten?” Gráinne asked, frowning as much as she knew how to. Her head wasn’t in the clouds – it was attached to her shoulders! How could you even get clouds underground, anyway?",
+                        "“We’re supposed to meet the O’Rourkes! Let me check your dress.”"
                     ]
                 },
                 {
-                    src: "https://aceade.files.wordpress.com/2021/04/dropoff.pdf",
-                    title: "Submarine Dropoff",
+                    src: "https://aceade.files.wordpress.com/2021/03/receiver.pdf",
+                    title: "Receiver",
                     intro: [
-                        "The listening and observation posts west of Ballyconneely had long since been established as part of the quarantine network around Connemara. Approximately a company was garrisoned in a series of blockhouses around the peninsula, connected to the main forts at Ballyconeely and Roundstone by redundant telephone wires. Within ten minutes, a report of a suspicious ship would be filtered through the command station, plotted on the mapping tables and relayed out to the corvettes and destroyer boats on standby or already out on patrol.",
-                        "In theory, at least. In practice, every single sighting in the last thirty years had turned out to either be one of their own ships, or phantoms due to atmospheric conditions. Only once had an unidentified ship turned out to be something unusual – a bulk carrier out of New York had got lost in a storm, and been very glad to be steered away from the orc-occupied quarantine zone.",
-                        "Just a mile off the coast of Connemara, the swell of an otherwise normal patch of sea was subtly broken by a metallic tube that was bent forward into a right-angle. It remained there for some time, unhurriedly rotating to either side. Had any naval vessel been close enough to spot it, it would have been quickly recognised. To their southeast, a recurrent yellow flash marked a distant lighthouse, but there were no other signs of lights along the coastline."
+                        "“It is completely impossible that the Fomorians would be able to develop a working radio apparatus. Any such thoughts are to be considered an improbable fantasy.”\n\t- Intelligence summary, East Connacht Command, 11th of October 1914",
+                        "In hindsight, I tarried longer than I should have. Skulking next to a lady’s door is, under most circumstances, improper behaviour. Pausing next to the door when one hears the lady in question talking to nobody is, however, perhaps more understandable. Especially when that young lady is the new wife of one’s employers’ nephew.",
                     ]
                 },
                 {
@@ -39,11 +41,12 @@ export default {
                     ]
                 },
                 {
-                    src: "https://aceade.files.wordpress.com/2021/03/ausefulpoltician.pdf",
-                    title: "A Useful Politician",
+                    src: "https://aceade.files.wordpress.com/2021/08/fomorianfuturefantasy.pdf",
+                    title: "Fomorian Fantasies of The Future",
                     intro: [
-                        "Just one letter. That was all she had to do – post a letter. The gentleman with the genial smile, vaguely Continental accent and the icy blue eyes had paid her two pounds for a penny-rate letter, already stamped and addressed. He’d hinted that she might find it useful to write one herself",
-                        "Mrs Lynch smiled to herself as she approached the postbox just outside Heuston Station, revealing a haphazard array of tobacco-stained teeth. Hardly the best pay for her little favours, but quite good for such a trivial task and the extra two pounds would be very useful if Jimmy, Anna or Michael caught the flu again."
+                        "Gráinne was bored. Outwardly, her expression didn’t change as she stared out the window, absently watching the waves in the bay, but she was still feeling peevish about being chased out of the library earlier that morning. Sure, her mother and father-in-law needed to discuss something in quiet with Aidan, but did it really have to be when she had just curled up in the armchair? And it wasn’t her shift on the wireless scanning rota, so she couldn’t even make herself useful by listening to the enciphered messages that Aidan suspected were coming from somewhere named Cruagh Island.",
+                        "Her train of thought didn’t so much leap as make a sharp right-hand turn into wondering who they were meant for, and if it was possible to reach across the sea with these radio waves. Not the immediate one between Cleggan and Inishbofin, but the wider sea out towards North America. And if so, could they reach the other side of the world...and if so, could they be used to send something other than dotted bleeps and dashed creeps?",
+                        "She started to picture a world where moving images were sent across the world in seconds, with sound, showing the people on the other end what those on the first end looked and sounded like. A world of endless opportunity. One where it was possible to discuss electrical apparatuses – apparati, surely – with people in Terra Australis, partake in a tea session with relatives who had moved to Southern America, even watch the sun rise over Italy, all from one’s own living room..."
                     ]
                 },
                 {

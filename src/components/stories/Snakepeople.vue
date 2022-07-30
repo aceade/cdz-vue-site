@@ -1,6 +1,5 @@
 <template>
     <PdfSlideshow :options="options" :slides="stories" :object-type="objectType"></PdfSlideshow>
-    <hr/>
 </template>
 
 <script>

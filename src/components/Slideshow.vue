@@ -44,9 +44,6 @@ export default {
           default: false
         }
     },
-    created() {
-      console.log("Options:", this.options, "\nSlides:", this.slides)
-    },
     components: {
       Splide, SplideTrack, SplideSlide
     }

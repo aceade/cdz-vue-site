@@ -1,7 +1,6 @@
 <template>
     <a href="https://www.buymeacoffee.com/aceade/e/58409">Collection available on BuyMeACoffee</a>
     <PdfSlideshow :options="options" :slides="stories" :object-type="objectType"></PdfSlideshow>
-    <hr/>
 </template>
 
 <script>
@@ -20,7 +19,8 @@ export default {
                     title: "A Nightmare",
                     intro: [
                         "She couldn’t move.",
-                        "Her heart pounded in time with the squeak of the trolley wheels as she struggled futilely against the straps that dug into her limbs and chest. The sharp smell of antiseptic assaulted her nostrils, growing ever stronger, and stronger, and-"
+                        "Her heart pounded in time with the squeak of the trolley wheels as she struggled futilely against the straps that dug into her limbs and chest. The sharp smell of antiseptic assaulted her nostrils, growing ever stronger, and stronger, and-",
+                        "“Feisty bitch, ain’t she?” somebody remarked. Her head twisted upwards and to the right, eyes locking onto the dwarf who leered at her, exposing teeth that were stained from smoking tea. Emblazoned on his right chest was that logo – that rounded vertical rectangle around those three letters."
                     ]
                 },
                 {
@@ -28,8 +28,6 @@ export default {
                     title: "Interception of an enciphered message from orc-held territory",
                     intro: [
                         "The crackle of static in his ears and the flashing blue light to his left caused Able Seaman Davis to shoot upright from where he had slouched in the wooden chair, his right hand resting idly on the notepad on his workstation. Pressing his left hand to his earphones, he leaned forwards and hurriedly transcribed the short, staccato bleeps and longer creeps in the approved shorthand terminology.",
-                        "“Found something, Davis?” the Lieutenant asked. He automatically nodded, focussing on converting the shorthand transcription into something more legible. Even as he finished and moved onto translating the dots and dashes into possible letters, something about it started to niggle at the back of his mind. It almost looked as though...",
-                        "“Sir, I don’t think this is English.” He handed the piece of flash paper over to the Lieutenant, who accepted it with a raised eyebrow that turned into a quizzical frown as he perused the message. Davis glanced over at the door into the main passageway, satisfying himself that it was closed. On the wall next to the door was a poster of a shark looming up from the deep, aiming straight for a stream of letters on the surface. He turned back to his wireless set, listening for any other messages."
                     ]
                 },
                 {
@@ -37,8 +35,6 @@ export default {
                     title: "Big Head Mode Is Not Conducive To Effective Scouting",
                     intro: [
                         "It was just another day west of the settlement known as Claddaghduff. The daystar remained hidden behind overlapping streaks of clouds, the wind that blew off the sea was biting cold, and the waves that lapped at the shore kicked up an awful spray that made the skin raw. The natives were at best indifferent, if not outright hostile. And there was always the chance that reality would randomly decide to invert itself.",
-                        "Efioa had long since turned his ears down against the older generation’s complaints about the sea in this new world. New to them, not to him. He had been born here, not that the Fomorians seemed to make any distinction, and had learned to pay attention to the sea. Among the things he had paid close attention to over the last week was the “cursed island” of Cruagh, situated about two dwarven miles out to sea. He could have sworn that he had seen a giant metal shape disappearing behind it to the west.",
-                        "Lacking anything better to do, he and his bond-sisters had elected to leave Omey Island and get a better look from the west of the Aughrusbeg peninsula. And so, with the spray kicked up in his face and the wind piercing his bones, he faced out towards the spiny northern flank of the island. It might have been his imagination, but it looked as though there was a large net hanging over something. He stepped forward-"
                     ]
                 },
                 {
@@ -70,14 +66,13 @@ export default {
                     title: "The Dwarven Inquisition Are Expected",
                     intro: [
                         "“Smell that?” Kerigoo hissed, his tongue flickering as he tried to identify the unusual scent on the wind. Debraa slowly lowered her spyglass and began to taste the air in turn, her eyes roving over the human fort that sat four hundred furlongs to their south. She nodded silently; it smelt quite different to wood or peat smoke, yet somehow similar enough that it had to be something burning.",
-                        "The blockhouse they had been hired to examine sat inside a ring of barbed wire approximately twenty furlongs to the west of the old town of Oughterard, along what had once been the primary – read only – overland route towards the port of Galway. Of particular note were the pair of parallel metal tracks that ran adjacent to the old road, stopping in a faux-rock barrier. They looked similar to the mine cart tracks in the tunnels under the hills – or they would have, if they had been carved into the underlying rock and not lain on top of thick wooden boards."
                     ]
                 }
             ],
             options: {
                 autoPlay: false,
                 autoWidth: false,
-                autoHeight: false,
+                autoHeight: true,
                 perPage: 1,
                 rewind: true
             },
