@@ -11,9 +11,11 @@
                 <object aria-labelledby="storyTitle" class="story_embed" type="application/pdf" width="100%" :data="slide.src">
                     <label id="storyTitle" > {{slide.title}}</label>
                     <!-- This is a fallback for browsers that don't show embedded PDFs -->
-                    <p class="intro" v-for="entry in slide.intro">
-                        {{entry}}
-                    </p>
+                    <div class="intro">
+                        <p class="intro" v-for="entry in slide.intro">
+                            {{entry}}
+                        </p>
+                    </div>
                     <hr/>
                     <a :href="slide.src">Download full version</a>
                 </object>
@@ -86,8 +88,8 @@ export default {
 
 .splide__slide label {
     margin-top: 20px!important;
-    margin-left: 50px;
-    font-size: 18px;
+    text-align:center;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -103,6 +105,15 @@ export default {
 
 p.intro {
     padding-top: 5px;
+}
+
+div.intro {
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    max-height: 400px;
+}
+div.intro:last-child {
+    content: '...';
 }
 
 </style>
