@@ -30,22 +30,23 @@ export default {
     return {
         collapsible: false,
         slides: [{
-            src: "/images/Monsters_Banshee.png",
+            // images here have to be under ./images so Vite can pick them up!
+            src: "./images/Monsters_Banshee.png",
             alt: "A thin humanoid dressed in a cloak and tunic, clutching a sword",
             caption: "The banshees - tall, thin humanoids with screeching voices and whose dress and behaviour resembled nothing short of the Vikings."
         },
         {
-            src: "/images/Monsters_Snake.png",
+            src: "./images/Monsters_Snake.png",
             alt: "A humanoid snake exposing their fangs",
             caption: "The serpentoids - humanoid snakes seeking their revenge on Saint Patrick."
         },
         {
-            src: "/images/Monsters_Puca.png",
+            src: "./images/Monsters_Puca.png",
             alt: "A red-eyed horse staring at the camera with a distended smirk on it's face",
             caption: "The púca. Mutated horses with the ability to mimic human speech and an unlimited capacity for mischief."
         },
         {
-            src: "/images/Monsters_orc.png",
+            src: "./images/Monsters_orc.png",
             alt: "A tusked human with red hair and green eyes",
             caption: "And the Fomorians. The 'orcs'. The mutated remains of the humans and dwarves who had called the region home and were left behind."
         }],
