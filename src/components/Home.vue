@@ -14,7 +14,7 @@
         What was once a series of impregnable cities became a nightmare where gravity could suddenly reverse, where the unfortunate could take another step and burst into flame, where one could turn a corner and vanish into thin air, only to reappear months later with no warning.
         To say nothing of the monsters that appeared.
     </p>
-        <Slideshow :options="options" :slides="slides" :collapsible="collapsible"/>
+    <Slideshow :options="options" :slides="slides" :collapsible="collapsible"/>
 
     <p class="welcome">Welcome to the West Connacht Disaster Zone.</p>
 </template>
@@ -51,11 +51,10 @@ export default {
         }],
         options: {
             rewind  : true,
-            gap     : '5rem',
             autoplay: true,
             autoWidth: false,
             autoHeight: false,
-            mediaQuery: 'min',
+            perPage: 1
         }
     }
 
@@ -76,9 +75,5 @@ p {
     margin-bottom: 10px;
 }
 
-li {
-    list-style: "\261E";
-    padding-left: 5px;
-}
 
 </style>

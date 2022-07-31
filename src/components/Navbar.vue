@@ -12,7 +12,7 @@
                     </li>
                     <li>
                         <a href="stories.html">Stories & Collections</a>
-                        <ul>
+                        <ul class="sublist">
                             <li>
                                 <a href="cruagh.html">The Cruagh Island Affair</a>
                             </li>
@@ -23,7 +23,7 @@
                     </li>
                     <li>
                         <a href="artwork.html">Artwork</a>
-                        <ul>
+                        <ul class="sublist">
                             <li>
                                 <a href="recordings.html">Timelapses</a>
                             </li>
@@ -47,6 +47,11 @@
 </template>
 
 <style scoped>
+
+.sublist > li {
+    list-style: "\261E";
+}
+
 
 header {
   line-height: 1.5;
