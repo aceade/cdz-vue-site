@@ -3,23 +3,23 @@ A practice project to teach myself Vue, based on [a scifi series](https://aceade
 
 ## Required pages
 - Home
-- Artwork. Will contain carousels of different categories, as based off [this page](https://aceade.wordpress.com/connacht-disaster-zone/connacht-disaster-zone-artwork/). The images will included as direct links from my main site.
+- Artwork. Contains carousels of different categories, as based off [this page](https://aceade.wordpress.com/connacht-disaster-zone/connacht-disaster-zone-artwork/). The images will included as direct links from my main site.
 - Stories. These will be displayed as embedded PDFs.
-- Collections. These will be displayed as embedded PDFs.
+- Collections. These will, where possible, contain a download link from BuyMeACoffee.
 - Timelapse. Not in the original spec; contains embedded videos of timelapses.
 
 
 ### Common elements
 - Header
     - navigation bar
-    - "Contact me" link (which will open a modal form to email me)
 - Components
     - Slideshow. Displays a carousel of images.
     - PdfSlideshow. Originally used just to display PDFs; extended to include videos as well.
 - Footer
+    - Social media links (or what passes for them)
 
 ### Third-party components
-- [Vue Splide](https://github.com/Splidejs/vue-splide)
+- [Vue Splide](https://github.com/Splidejs/vue-splide) - a Vue package for slide decks.
 - [Bunchló Gael font](https://www.ffonts.net/Bunchl.font) - originally created by Vincent Morley in 1996.
 - [Mastodon icon](https://fontawesome.com/icons/mastodon?s=brands)
 - [Twitter icon](https://fontawesome.com/icons/twitter?s=brands)
@@ -40,4 +40,4 @@ This uses the GitHub Pages action posted [here](https://github.com/peaceiris/act
 The file that configures this is **.github/workflows/node.js.yml**.
 
 ## Styling
-TBD.
+A lot of this uses the default styling in Vue. Aside from that, the Bunchló Gael font is used to provide a suitably Irish look for this.
