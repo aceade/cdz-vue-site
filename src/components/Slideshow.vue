@@ -76,6 +76,13 @@ export default {
   }
 }
 
+@media (max-width: 320px) {
+  .splide img {
+    max-width: 200px;
+  }
+}
+
+
 img {
   margin: auto;
   display: flex;

@@ -46,7 +46,7 @@ export default {
             caption: "The púca. Mutated horses with the ability to mimic human speech and an unlimited capacity for mischief."
         },
         {
-            src: "./images/Monsters_orc.png",
+            src: "./images/Monsters_Orc.png",
             alt: "A tusked human with red hair and green eyes",
             caption: "And the Fomorians. The 'orcs'. The mutated remains of the humans and dwarves who had called the region home and were left behind."
         }],
