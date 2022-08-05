@@ -57,30 +57,7 @@ export default {
                         "The cigarette lit up the interior of the watchtower. Out of the corner of his eye, he could see the construction site for that new tower fifty yards away. Bloody expensive pieces of shite...rather than hiring more people (or, heaven forbid, even just paying him enough to actually care), management had decreed that these lightning throwing machines would protect Cruagh Island. This vital island. It was of the highest importance that the Fomorians and the government be kept-"
                     ]
                 },
-                {
-                    src: "https://aceade.files.wordpress.com/2021/03/of-snakes-and-birds.pdf",
-                    title: "Of Snakes and Birds",
-                    intro: [
-                        "Darragh Timoney would tell anyone who’d listen that the best way to find leads for his weekly column, Tales from the Western Front, was to sit in a pub of an evening. One could uncover all manner of interesting threads from the varied walks of life – fishermen, shopkeepers, off-duty soldiers – that one met in Galway’s pubs. The fact that he liked his stout was a mere bonus.",
-                        "He was sitting down the far end of the King’s Head with a pint of the black stuff, notepad and pencil in the gap between the pillar and his right hand. He hadn’t heard anything particularly newsworthy yet, but that might just be his roots in Ballybrit talking; apparently, the rich folks up in Dublin and Belfast and over the sea loved hearing anything from the edge of the disaster zone. It didn’t matter what – just as long as they felt that the cost of the Wall was worth it."
-                    ]
-                },
-                {
-                    src: "https://aceade.files.wordpress.com/2021/03/site_reconnaisance.pdf",
-                    title: "Site Reconnaisance",
-                    intro: [
-                        "Three miles southwest of Louisburgh, an oppressive silence fell over the countryside that basked in the hazy sunshine. The overgrown fields behind bush-riddled drystone walls were unnaturally still, without any trace of the native species that would have filled them. Something had caused them to hunker down.",
-                        "This was not readily apparent to the party of four dwarves and two humans that held onto various parts of the Ford that roared along the rough road that led to an outpost looking over the sea at Carrowniskey Beach. With the exception of the driver, who possessed the faint smirk of somebody enjoying the sensation of being just in control, they were more concerned with the fact that it shook around on the uneven dirt and stone surface like a possessed beast or an unusually demented púca."
-                    ]
-                },
-                {
-                    src: "https://aceade.files.wordpress.com/2021/07/serpentoid_site_recon.pdf",
-                    title: "Serpentoid Site Scouts",
-                    intro: [
-                        "“Smell that?” Kerigoo hissed, his tongue flickering as he tried to identify the unusual scent on the wind. Debraa slowly lowered her spyglass and began to taste the air in turn, her eyes roving over the human fort that sat four hundred furlongs to their south. She nodded silently; it smelt quite different to wood or peat smoke, yet somehow similar enough that it had to be something burning.",
-                        "The blockhouse they had been hired to examine sat inside a ring of barbed wire approximately twenty furlongs to the west of the old town of Oughterard, along what had once been the primary – read only – overland route towards the port of Galway. Of particular note were the pair of parallel metal tracks that ran adjacent to the old road, stopping in a faux-rock barrier. They looked similar to the mine cart tracks in the tunnels under the hills – or they would have, if they had been carved into the underlying rock and not lain on top of thick wooden boards."
-                    ]
-                }
+                
             ],
             options: {
                 autoPlay: false,
