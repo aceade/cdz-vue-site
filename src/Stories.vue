@@ -3,23 +3,17 @@ import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue'
 // stories broken down into individual components
 import Snakepeople from './components/stories/Snakepeople.vue';
-import SpycrabsAndWarbirds from './components/stories/SpycrabsAndWarbirds.vue';
 import ORourke from './components/stories/ORourke.vue';
 
 export default {
     components: {
     Navbar,
     Snakepeople,
-    SpycrabsAndWarbirds,
     ORourke,
     Footer,
     },
     props: {
         showSnakes: {
-            type: Boolean,
-            default: true
-        },
-        showSpycrabs: {
             type: Boolean,
             default: true
         },
@@ -42,11 +36,6 @@ export default {
             <div>
                 <h3 @click="showSnakes = !showSnakes">Snakepeople of Conneamara</h3>
                 <Snakepeople class="storiesComponent" v-if="showSnakes"/>
-                <hr/>
-            </div>
-            <div>
-                <h3 @click="showSpycrabs = !showSpycrabs">Warfare and Espionage</h3>
-                <SpycrabsAndWarbirds class="storiesComponent" v-if="showSpycrabs"/>
                 <hr/>
             </div>
             <div>

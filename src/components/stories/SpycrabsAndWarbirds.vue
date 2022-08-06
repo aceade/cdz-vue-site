@@ -13,6 +13,14 @@ export default {
         return {
             stories: [
                 {
+                    src: "https://aceade.files.wordpress.com/2021/03/porter.pdf",
+                    title: "Porter",
+                    intro: [
+                        "The light that shone into his face made it difficult to see much in the room, but it didn't block his ears. He could hear somebody settling themselves into a chair, probably a more comfortable one than the metal monstrosity he sat in, thick leather straps around his arms and legs – the meaty arms and legs that were covered in ugly green scaly patches. Behind the light, he heard matches being struck, smelled a cigarette or cigar coming to life.",
+                        "He straightened up and tensed as somebody cleared their throat, before a button clicked. When the man behind the light spoke, it was in an upper-class accent that didn't quite mask the speaker's roots in Malahide. His manner was unhurried."
+                    ]
+                },
+                {
                     src: "https://aceade.files.wordpress.com/2021/03/spymaster.pdf",
                     title: "In Which The Kingdom of Scandinavia Plans To Troll The British Navy",
                     intro: [
@@ -76,6 +84,14 @@ export default {
                     intro: [
                         "“Smell that?” Kerigoo hissed, his tongue flickering as he tried to identify the unusual scent on the wind. Debraa slowly lowered her spyglass and began to taste the air in turn, her eyes roving over the human fort that sat four hundred furlongs to their south. She nodded silently; it smelt quite different to wood or peat smoke, yet somehow similar enough that it had to be something burning.",
                         "The blockhouse they had been hired to examine sat inside a ring of barbed wire approximately twenty furlongs to the west of the old town of Oughterard, along what had once been the primary – read only – overland route towards the port of Galway. Of particular note were the pair of parallel metal tracks that ran adjacent to the old road, stopping in a faux-rock barrier. They looked similar to the mine cart tracks in the tunnels under the hills – or they would have, if they had been carved into the underlying rock and not lain on top of thick wooden boards."
+                    ]
+                },
+                {
+                    src: "https://aceade.files.wordpress.com/2021/03/negative_colours.pdf",
+                    title: "Negative Colours",
+                    intro: [
+                        "“Why are we watching this village?” Private Black asked, finally voicing the question on everyone’s lips. The village in question was barely even worthy of the name – just a collection of four obviously abandoned cottages, loosely scattered around some overgrown fields just west of Lough Corrib. From where he stood, cold rain dripping off his helmet and sloshing in the heel of his left boot, it didn’t look worth spit.",
+                        "“Ours not to reason why, Danny,” Corporal Thompson grumbled. Familiarity with the older man made it clear that he privately agreed, but wouldn’t say that in front of Lieutenant Jones. Or, more importantly, the senior officer that they were escorting, a Major Nettleson. Better to keep your head down and not attract the wrong sort of attention.",
                     ]
                 }
             ],
