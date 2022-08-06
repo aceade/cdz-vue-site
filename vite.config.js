@@ -24,6 +24,7 @@ export default defineConfig({
         detention: resolve(__dirname, "detention.html"),
         evictor: resolve(__dirname, "evictor.html"),
         recordings: resolve(__dirname, "recordings.html"),
+        spycrabs: resolve(__dirname, "spycrabs.html"),
       }
     }
   }

@@ -29,6 +29,7 @@ There are a few ways to run this:
 - `npm run dev`. This runs a local build for development work
 - `npm run build`. This creates a production build inside the **dist/** folder.
 - `npm run preview`. Runs a preview of the production site. This will be exposed to the outside so that mobile devices can view it.
+- `npm run deployLocally`. Chains the build and preview commands.
 
 ### Caveats
 - Mobile browsers may not be able to render the PDFs as-is. As a fallback, they will display the first few paragraphs and a link to download it instead.
@@ -41,3 +42,6 @@ The file that configures this is **.github/workflows/node.js.yml**.
 
 ## Styling
 A lot of this uses the default styling in Vue. Aside from that, the Bunchló Gael font is used to provide a suitably Irish look for this.
+
+## Licence
+All code here is under the MIT licence. Third-party components as listed above may be under different licences.
