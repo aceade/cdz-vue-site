@@ -19,6 +19,9 @@
                             <li>
                                 <a href="detention.html">Detention Centre Tales</a>
                             </li>
+                            <li>
+                                <a href="spycrabs.html">Spycrabs & Warbirds</a>
+                            </li>
                         </ul>
                     </li>
                     <li>
