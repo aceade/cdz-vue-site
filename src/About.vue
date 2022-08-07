@@ -4,17 +4,15 @@
   <main>
     <h2>About Me</h2>
     <div class="wrapper">
-        <div id="authorImg">
-          <img src="/images/author.jpg" alt="A black-and-white selfie of a man in a fleece and sun hat, framed against the shore"/>
-        </div>
-        <div id="blah" class="float-right">
-          <p>I'm a software engineer in my day job. Writing scifi & fantasy is a long-standing hobby that never really went anywhere until I shifted to writing short stories. And then I got bored during the COVID lockdown of 2020.</p>
-          <p>This series was originally inspired by a mix of several years of regular hikes in the backcountry of Connemara, the dwarven ruins of Morrowind/Skyrim, and the surreal, bleak S.T.A.L.K.E.R. games.</p>
-        </div>
-        <div class="clear"></div>  
-    </div>
-    <p>My original and main site for this series is <a href="https://aceade.wordpress.com/connacht-disaster-zone/">here</a>. If you want a look at the code for this site, that's up on <a href="https://github.com/aceade/cdz-vue-site">GitHub</a>. You can also find me on mastodon.social or Twitter (see the footer)</p>
+        <img id="authorImg" src="/images/author.jpg" alt="A black-and-white selfie of a man in a fleece and sun hat, framed against the shore"/>
+        <p>I'm a software engineer in my day job. Writing scifi & fantasy is a long-standing hobby that never really went anywhere until I shifted to writing short stories. And then I got bored during the COVID lockdown of 2020.</p>
+        <p>This series was originally inspired by a mix of several years of regular hikes in the backcountry of Connemara, the dwarven ruins of Morrowind/Skyrim, and the surreal, bleak S.T.A.L.K.E.R. games. My original goal was to create a mod for one of those games, but since being a software engineer requires me to spend my days getting trolled by computers...</p>
+        <p>My original and main site for this series is <a href="https://aceade.wordpress.com/connacht-disaster-zone/">here</a>. You can also find me on mastodon.social or Twitter (see the footer).</p>
 
+        <h3>Why a second site?</h3>
+        <p>I got into a rut at work and decided I needed to try doing something different. I figured that since it's damn near impossible to do any kind of web development without <em>some</em> frontend work, I might as well learn Vue.</p>
+        <p>If you want a look at the code for this site, that's up on <a href="https://github.com/aceade/cdz-vue-site">GitHub</a></p>
+    </div>
     <hr/>
     <Footer/>
   </main>
@@ -45,19 +43,22 @@ export default {
 }
 
 #authorImg {
+  height: var(--img-height);
   float: left;
+  margin-right: 10px;
 }
 
-#authorImg img {
-  height: var(--img-height);
+p {
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  text-align: center;
 }
 
 #blah {
   margin-left: 115px;
   padding-left: 5px;
-  top: calc(var(--img-height) * -1);
 }
-
-
 
 </style>
