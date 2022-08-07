@@ -38,11 +38,9 @@
                    
                     <hr/>
                     <li>
-                        <a href="https://github.com/aceade/cdz-vue-site">View on GitHub</a>
+                        <a href="about.html">About the Author</a>
                     </li>
-                    <li>
-                        <a href="https://aceade.net/connacht-disaster-zone/">Original Site</a>
-                    </li>
+
                 </ul>
             </nav>
         </div>

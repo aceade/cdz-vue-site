@@ -25,6 +25,7 @@ export default defineConfig({
         evictor: resolve(__dirname, "evictor.html"),
         recordings: resolve(__dirname, "recordings.html"),
         spycrabs: resolve(__dirname, "spycrabs.html"),
+        about: resolve(__dirname, "about.html")
       }
     }
   }
