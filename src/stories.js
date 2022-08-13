@@ -1,4 +1,5 @@
 import * as Vue from 'vue';
 import App from './Stories.vue';
 
-Vue.createApp(App).mount('#app');
+import i18n from './i18n';
+Vue.createApp(App).use(i18n).mount('#app');

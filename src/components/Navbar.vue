@@ -8,10 +8,10 @@
 
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html">{{ $t("navbar.home") }}</a>
                     </li>
                     <li>
-                        <a href="stories.html">Stories & Collections</a>
+                        <a href="stories.html"> {{ $t("navbar.stories") }}</a>
                         <ul class="sublist">
                             <li>
                                 <a href="cruagh.html">The Cruagh Island Affair</a>
@@ -25,10 +25,10 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="artwork.html">Artwork</a>
+                        <a href="artwork.html">{{ $t("navbar.artwork") }}</a>
                         <ul class="sublist">
                             <li>
-                                <a href="recordings.html">Timelapses</a>
+                                <a href="recordings.html">{{ $t("navbar.timelapses") }}</a>
                             </li>
                             <li>
                                 <a href="evictor.html">Smash The Evictor's Statue!</a>
@@ -38,7 +38,12 @@
                    
                     <hr/>
                     <li>
-                        <a href="about.html">About the Author</a>
+                        <a href="about.html">{{ $t("navbar.about")}}</a>
+                    </li>
+                    <li class="locale-changer">
+                        <select v-model="$i18n.locale">
+                            <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
+                        </select>
                     </li>
 
                 </ul>
