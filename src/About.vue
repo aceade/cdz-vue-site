@@ -12,6 +12,7 @@
         <h3>{{$t("about.why")}}</h3>
         <p>{{$t("about.answer")}}</p>
         <p>{{$t("about.code")}} <a href="https://github.com/aceade/cdz-vue-site">GitHub</a>.</p>
+        <p v-if="$i18n.locale === 'ga'">{{$t("about.disclaimer")}}</p>
     </div>
     <hr/>
     <Footer/>

@@ -40,11 +40,12 @@
                     <li>
                         <a href="about.html">{{ $t("navbar.about")}}</a>
                     </li>
-                    <li class="locale-changer">
+                    <!-- Localisation will not happen. This is being kept as self-education -->
+                    <!-- <li class="locale-changer">
                         <select v-model="$i18n.locale">
                             <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
                         </select>
-                    </li>
+                    </li> -->
 
                 </ul>
             </nav>

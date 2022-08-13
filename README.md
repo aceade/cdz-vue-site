@@ -34,6 +34,7 @@ There are a few ways to run this:
 ### Caveats
 - Mobile browsers may not be able to render the PDFs as-is. As a fallback, they will display the first few paragraphs and a link to download it instead.
 - Embedded video quality may not be the best. However, the user will be able to view on Youtube.
+- Localisation does not exist for this. I decided that it is too much hassle for me to do by myself, but the plugin and files remain present as a reference for myself.
 
 ## Server deployment
 This uses the GitHub Pages action posted [here](https://github.com/peaceiris/actions-gh-pages) to build the site using Vite and then deploy onto a separate branch (gh-pages). This does _not_ happen on main due to branch protection rules.

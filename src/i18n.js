@@ -20,6 +20,7 @@ const messages = {
             why: "Why a second site?",
             answer: "I got into a rut at work and decided I needed to try doing something different. I figured that since it's damn near impossible to do any kind of web development without some frontend work, I might as well learn Vue.",
             code: "If you want a look at the code for this site, that's up on",
+            disclaimer: ""
         }
     },
     ga: {
@@ -40,13 +41,14 @@ const messages = {
             why: "Cén fáth go ndearna tú suíomh dara?",
             answer: "Bhí an t-obair ag cur isteach orm, agus cheap mé gur cheart dom rud éigin nua a fhoghlaim. Tá sé deacair web development a dhéanamh gan eolas ar bith faoin obair ar an bhfrontend, agus de bharr, dúirt mé liom féin gur cheart dom Vue a fhoghlaim.",
             code: "Mas maith leat an code a fhéiceáil, tá se ar fáil ar",
+            disclaimer: "Caithfidh mé a admháil: níl Gaeilgeoir mé! Tá me cinnte gur iomaí botún anseo."
         }
     }
 };
 
 // create the i18n object and export so other files can use it
 const i18n = createI18n({
-    locale: 'ga',
+    locale: 'en',
     fallbackLocale: 'en',
     messages
 });
