@@ -6,6 +6,7 @@
     <p class="welcome">In which a pair of serpentoid mercenaries are less than impressed with one of their siblings</p>
 
     <Slideshow id="splide_comic" :options="slide_options" :slides="slides" :has-track="false" :collapsible="collapsible"></Slideshow>
+    <AuthorsNotes :notes="notes"/>
     <hr/>
     <Footer/>
   </main>
@@ -15,14 +16,16 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import Slideshow from './components/Slideshow.vue';
+import AuthorsNotes from './components/AuthorsNotes.vue';
 import Footer from './components/Footer.vue';
 
 export default {
   components: {
     Navbar,
     Slideshow,
-    Footer
-  },
+    AuthorsNotes,
+    Footer,
+},
   data() {
     return {
       collapsible: false,
@@ -35,6 +38,10 @@ export default {
         autoHeight: true,
         perPage: 1
       },
+      notes: [
+        "I'm not entirely sure where I got the idea of a humanoid snake smashing a statue of St Patrick, but the idea amused me enough to do this.",
+        "I think my favourite slide here is the fourth (Sectaa opening the door). Just something about the lighting really tickles my fancy."
+      ],
       slides: [{
         src: "https://aceade.files.wordpress.com/2022/03/panel1-1.jpg",
         alt: "A humanoid snake trying to look adorable or innocent. A speech bubble says 'Let me get this straight, Sectaa...'",

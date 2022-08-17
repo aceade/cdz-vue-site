@@ -22,6 +22,9 @@
                             <li>
                                 <a href="spycrabs.html">Spycrabs & Warbirds</a>
                             </li>
+                            <li>
+                                <a href="fitow.html">Fomorians In Their Own Words</a>
+                            </li>
                         </ul>
                     </li>
                     <li>
