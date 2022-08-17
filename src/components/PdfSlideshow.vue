@@ -30,6 +30,16 @@
                 <iframe :src="slide.src" :width="slide.width" :height="slide.height" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </SplideSlide>
             </splide-track>
+
+            <!-- Stories are just paragraphs -->
+            <splide-track v-if="objectType === 'story'">
+            <SplideSlide v-for="slide in slides" :key="slide.title">
+                <label id="storyTitle"> {{slide.title}}</label>
+                <p v-for="paragraph in slide.paragraphs">{{paragraph}}</p>
+                <p class="blurb">{{slide.author}}</p>
+            </SplideSlide>
+            </splide-track>
+
         </div>
     </splide>
 </template>
@@ -46,7 +56,7 @@ export default {
         objectType: {
             type: String,
             validator(value) {
-                return ["pdf", "video"].includes(value)
+                return ["pdf", "video", "story"].includes(value)
             }
         },
         hasTrack: {
