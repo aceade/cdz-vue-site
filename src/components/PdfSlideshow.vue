@@ -24,7 +24,7 @@
         
             <!-- Videos are embedded Youtube links, using Youtube's own embbeding code -->
             <!-- This does mean the sizes may be off, but the user can view on Youtube for a better experience -->
-            <splide-track v-if="objectType === 'video'">
+            <splide-track v-if="objectType === 'video' || objectType === 'page'">
             <SplideSlide v-for="slide in slides" :key="slide.title">
                 <label id="storyTitle"> {{slide.title}}</label>
                 <iframe :src="slide.src" :width="slide.width" :height="slide.height" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
