@@ -6,6 +6,8 @@
       <h2>Fomorians In Their Own Words</h2>      
       <FitowSlides/>
       <hr/>
+      <AuthorsNotes :notes="authorsNotes"/>
+      <hr/>
     </div>
 
     <Footer/>
@@ -16,13 +18,22 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import FitowSlides from "./components/stories/FitowSlides.vue"
+import AuthorsNotes from './components/AuthorsNotes.vue';
 import Footer from './components/Footer.vue'
 
 export default {
   components: {
     Navbar,
     FitowSlides,
+    AuthorsNotes,
     Footer
+  },
+  data() {
+    return {
+      authorsNotes: [
+        "Unlike most of the stories, these were originally written as blog posts on my main site."
+      ]
+    }
   }
 }
 

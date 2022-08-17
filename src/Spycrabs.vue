@@ -26,6 +26,8 @@
 
       <SpycrabsAndWarbirds/>
       <hr/>
+      <AuthorsNotes :notes="authorsNotes"/>
+      <hr/>
     </div>
 
     <Footer/>
@@ -36,13 +38,21 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import SpycrabsAndWarbirds from "./components/stories/SpycrabsAndWarbirds.vue"
+import AuthorsNotes from './components/AuthorsNotes.vue';
 import Footer from './components/Footer.vue'
 
 export default {
   components: {
     Navbar,
     SpycrabsAndWarbirds,
-    Footer
+    AuthorsNotes,
+    Footer,
+}, data() {
+    return {
+      authorsNotes: [
+        "Crabs don't really show up in this. I just couldn't resist making a reference to the Spycrab glitch/meme from Team Fortress 2."
+      ]
+    }
   }
 }
 

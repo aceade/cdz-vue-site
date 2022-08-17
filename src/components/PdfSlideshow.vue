@@ -79,8 +79,7 @@ export default {
  */
 .splide__slide {
     min-height: 500px;
-    width: calc(100% - 10px)
-
+    width: calc(100% - 10px);
 }
 .splide__slide object{
     min-height: 500px;
