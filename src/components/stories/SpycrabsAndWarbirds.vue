@@ -78,22 +78,6 @@ export default {
                         "This was not readily apparent to the party of four dwarves and two humans that held onto various parts of the Ford that roared along the rough road that led to an outpost looking over the sea at Carrowniskey Beach. With the exception of the driver, who possessed the faint smirk of somebody enjoying the sensation of being just in control, they were more concerned with the fact that it shook around on the uneven dirt and stone surface like a possessed beast or an unusually demented púca."
                     ]
                 },
-                {
-                    src: "https://aceade.files.wordpress.com/2021/07/serpentoid_site_recon.pdf",
-                    title: "Serpentoid Site Scouts",
-                    intro: [
-                        "“Smell that?” Kerigoo hissed, his tongue flickering as he tried to identify the unusual scent on the wind. Debraa slowly lowered her spyglass and began to taste the air in turn, her eyes roving over the human fort that sat four hundred furlongs to their south. She nodded silently; it smelt quite different to wood or peat smoke, yet somehow similar enough that it had to be something burning.",
-                        "The blockhouse they had been hired to examine sat inside a ring of barbed wire approximately twenty furlongs to the west of the old town of Oughterard, along what had once been the primary – read only – overland route towards the port of Galway. Of particular note were the pair of parallel metal tracks that ran adjacent to the old road, stopping in a faux-rock barrier. They looked similar to the mine cart tracks in the tunnels under the hills – or they would have, if they had been carved into the underlying rock and not lain on top of thick wooden boards."
-                    ]
-                },
-                {
-                    src: "https://aceade.files.wordpress.com/2021/03/negative_colours.pdf",
-                    title: "Negative Colours",
-                    intro: [
-                        "“Why are we watching this village?” Private Black asked, finally voicing the question on everyone’s lips. The village in question was barely even worthy of the name – just a collection of four obviously abandoned cottages, loosely scattered around some overgrown fields just west of Lough Corrib. From where he stood, cold rain dripping off his helmet and sloshing in the heel of his left boot, it didn’t look worth spit.",
-                        "“Ours not to reason why, Danny,” Corporal Thompson grumbled. Familiarity with the older man made it clear that he privately agreed, but wouldn’t say that in front of Lieutenant Jones. Or, more importantly, the senior officer that they were escorting, a Major Nettleson. Better to keep your head down and not attract the wrong sort of attention.",
-                    ]
-                }
             ],
             options: {
                 autoPlay: false,
