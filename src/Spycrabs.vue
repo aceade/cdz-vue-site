@@ -4,29 +4,23 @@
   <main>
     <div class="wrapper">
       <h2>Spycrabs And Warbirds</h2>
-      <p class="blurb">The war effort in west Connacht is not one of epic battles. Small, squalid skirmishes in the bogs and pine forests. Long periods of watching the coasts for Fomorian pirates and those who would aid them for their own ends.</p>
-      <!-- <div>
-        <img src="https://aceade.files.wordpress.com/2022/02/cruaghislandaffaircover_v2.jpg" alt=""/>
-        <div class="float-right">
-          <p class="blurb">
-            She couldn’t move.
-          </p>
-          <p class="blurb">
-            Her heart pounded in time with the squeak of the trolley wheels as she struggled futilely against the straps that dug into her limbs and chest. The sharp smell of antiseptic assaulted her nostrils, growing ever stronger, and stronger, and-
-          </p>
-          <hr/>
-          <p>A collection of stories involving an unsanctioned dwarven laboratory off the coast of Co. Galway as it attempts to discover the origins of the Fomorians.</p>
-          <p>You can read most of them below, or get the full set of 8 stories and associated artwork from 
-            <a href="https://www.buymeacoffee.com/aceade/e/58409">BuyMeACoffee</a>!
-          </p>
-        </div>
+      <div>
+        <img src="https://aceade.files.wordpress.com/2022/08/spycrabsandwarbirdscover.jpg" alt=""/>
+        <p class="blurb">
+          The war effort in west Connacht is not one of epic battles. Long, dull periods of watching the coasts for Fomorian pirates and those who would aid them for their own ends, broken up by small, squalid skirmishes in the bogs and pine forests. Constantly watching for reality going out to lunch.
+        </p>
+        <p class="blurb">
+          For the British military, west Connacht is just a tedious and unwelcome theatre. But for the dwarves of Ireland and the Fomorians who drove them out of their homeland, this war is a personal matter. 
+        </p>
+        <hr/>
+        <p>Tales of the low-intensity conflict around western Connacht, and some of the attempts by other powers to interfere with the British and Dwarven containment efforts.</p>
+        <p>Coming soon to <a href="https://www.buymeacoffee.com/aceade/">BuyMeACoffee</a>! In the meantime, have some tasters:</p>
+        <div class="clear"/>
+        <hr/>
         
-        <div class="clear"></div>
-      </div> -->
+      </div>
 
       <SpycrabsAndWarbirds/>
-      <hr/>
-      <AuthorsNotes :notes="authorsNotes"/>
       <hr/>
     </div>
 
@@ -38,21 +32,13 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import SpycrabsAndWarbirds from "./components/stories/SpycrabsAndWarbirds.vue"
-import AuthorsNotes from './components/AuthorsNotes.vue';
 import Footer from './components/Footer.vue'
 
 export default {
   components: {
     Navbar,
     SpycrabsAndWarbirds,
-    AuthorsNotes,
     Footer,
-}, data() {
-    return {
-      authorsNotes: [
-        "Crabs don't really show up in this. I just couldn't resist making a reference to the Spycrab glitch/meme from Team Fortress 2."
-      ]
-    }
   }
 }
 
@@ -70,16 +56,13 @@ export default {
     float: unset;
     width: 100%!important;
   }
-  .float-right {
-    float: unset;
-    width: 100%!important;
-  }
 
 }
 
 .wrapper img {
   float: left;
-  width: calc(60% - 5px);
+  width: calc(45% - 5px);
+  margin-right: 5px;
 }
 
 p {
@@ -91,18 +74,5 @@ p {
   font-family: fantasy;
 }
 
-/*Extend the existing float-right class */
-.float-right {
-  width: calc(40% - 5px);
-  margin-left: 5px;
-  margin-top: 10px;
-}
-.float-right p{
-  padding-top: 5px;
-}
-
-.clear {
-  margin-bottom: 10px;
-}
 
 </style>
