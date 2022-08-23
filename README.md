@@ -6,7 +6,7 @@ A practice project to teach myself Vue, based on [a scifi series](https://aceade
 - Artwork. Contains carousels of different categories, as based off [this page](https://aceade.wordpress.com/connacht-disaster-zone/connacht-disaster-zone-artwork/). The images will included as direct links from my main site. Subcategories on different pages:
     - Timelapses. Contains embedded videos of timelapse recordings.
     - Smash The Evictor's Statue! A mini webcomic in which a humanoid snake decides to vandalise a statue of Saint Patrick.
-- Stories. These will be displayed as embedded PDFs, with one caveat: mobile browsers may not be able to render the PDFs as-is. As a fallback, they will display the first few paragraphs and a link to download it instead. Any story that doesn't go 
+- Stories. These will be displayed as embedded PDFs, with one caveat: mobile browsers may not be able to render the PDFs as-is. As a fallback, they will display the first few paragraphs and a link to download it instead. Any story that doesn't go into a specific collection will be visible here.
 - Collections. Stories grouped by category. These will, where possible, contain a download link from BuyMeACoffee.
     - The Cruagh Island Affair.
     - Tales From a Fomorian Detention Centre.
@@ -20,7 +20,7 @@ Vue is based around the concept of defining [Single File Components](https://vue
     - PdfSlideshow. Originally used just to display PDFs; extended to include videos as well.
     - AuthorsNotes. Small end-sections on various categories.
     - Stories components. Broken down by category.
-- Footer. Contains social media links
+- Footer. Contains social media links.
 
 ### Third-party components/sources
 - [Vue Splide](https://github.com/Splidejs/vue-splide) - a Vue package for slide decks.
