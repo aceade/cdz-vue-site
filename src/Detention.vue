@@ -14,7 +14,7 @@
           </p>
           <hr/>
           <p>A collection of short stories set in an detention centre for some orcs in Ireland.</p>
-          <p>You can read most of them below, or get the full set of 8 stories and associated artwork from 
+          <p>If you like the following tasters, get the full set of 8 stories and associated artwork from 
             <a href="https://www.buymeacoffee.com/aceade/e/68319">BuyMeACoffee</a>!
           </p>
         <!-- </div>

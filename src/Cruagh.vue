@@ -14,7 +14,7 @@
           </p>
           <hr/>
           <p>A collection of stories involving an unsanctioned dwarven laboratory off the coast of Co. Galway as it attempts to discover the origins of the Fomorians.</p>
-          <p>You can read most of them below, or get the full set of 8 stories and associated artwork from 
+          <p>If you like the following tasters, get the full set of 8 stories and associated artwork from 
             <a href="https://www.buymeacoffee.com/aceade/e/58409">BuyMeACoffee</a>!
           </p>
         </div>
