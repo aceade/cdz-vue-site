@@ -64,6 +64,12 @@ export default {
           title: "Artwork Recording: Serpentoid Site Scouts",
           width: 700,
           height: 400
+        },
+        {
+          src: "https://www.youtube.com/embed/Irajgecpew0",
+          title: "Banshee Lancer",
+          width: 700,
+          height: 400
         }
       ]
     }
