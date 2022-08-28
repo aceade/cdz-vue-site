@@ -4,6 +4,7 @@
   <main>
     <div class="wrapper">
       <div>
+        <h2/>
         <img src="https://aceade.files.wordpress.com/2022/02/cruaghislandaffaircover_v2.jpg" alt=""/>
         <div class="float-right">
           <p class="blurb">
