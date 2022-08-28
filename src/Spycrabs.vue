@@ -3,7 +3,7 @@
 
   <main>
     <div class="wrapper">
-      <h2>Spycrabs And Warbirds</h2>
+      <h2></h2>
       <div>
         <img src="https://aceade.files.wordpress.com/2022/08/spycrabsandwarbirdscover.jpg" alt=""/>
         <p class="blurb">
