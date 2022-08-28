@@ -17,7 +17,7 @@
                         </p>
                     </div>
                     <hr/>
-                    <a :href="slide.src">Download full version</a>
+                    <a v-if="slide.src.length > 0" :href="slide.src">Download full version</a>
                 </object>
             </SplideSlide>
             </splide-track>
