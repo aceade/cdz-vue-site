@@ -14,7 +14,7 @@
         </p>
         <hr/>
         <p>Tales of the low-intensity conflict around western Connacht, and some of the attempts by other powers to interfere with the British and Dwarven containment efforts.</p>
-        <p>Coming soon to <a href="https://www.buymeacoffee.com/aceade/">BuyMeACoffee</a>! In the meantime, have some tasters:</p>
+        <p>If you like the following tasters, download it from <a href="https://www.buymeacoffee.com/aceade/e/88464">BuyMeACoffee</a></p>
         <div class="clear"/>
         <hr/>
         
