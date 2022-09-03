@@ -17,7 +17,12 @@ export default {
                     title: "Porter",
                     intro: [
                         "The light that shone into his face made it difficult to see much in the room, but it didn't block his ears. He could hear somebody settling themselves into a chair, probably a more comfortable one than the metal monstrosity he sat in, thick leather straps around his arms and legs – the meaty arms and legs that were covered in ugly green scaly patches. Behind the light, he heard matches being struck, smelled a cigarette or cigar coming to life.",
-                        "He straightened up and tensed as somebody cleared their throat, before a button clicked. When the man behind the light spoke, it was in an upper-class accent that didn't quite mask the speaker's roots in Malahide. His manner was unhurried."
+                        "He straightened up and tensed as somebody cleared their throat, before a button clicked. When the man behind the light spoke, it was in an upper-class accent that didn't quite mask the speaker's roots in Malahide. His manner was unhurried.",
+                        "“We'll get started. You are James David Porter, is that correct?”",
+                        "“Yes, sir.”",
+                        "“Where were you born?”",
+                        "“Number 11, Pound Lane, Maynooth. First of June, 1880.”",
+                        "“Born to who?”",
                     ]
                 },
                 {
@@ -26,6 +31,9 @@ export default {
                     intro: [
                         "The swift, efficient rat-tat-tat on the door broke the Admiral’s concentration, just as the cigarette lighter had come to life. Scowling briefly out one side of his mouth, he held the old bullet case to the top of the pipe and puffed as the tobacco began to smoulder. Even before he could ask who it was, the door swung halfway open to reveal a woman in a severe navy-blue tunic that marked her as a Lieutenant. Icy pale blue eyes peered out of a face that was lined with middle-age, her mouth turned down in a disapproving look.",
                         "“Sir, Mr Bjornsson has arrived,” she announced in a clipped, efficient tone.",
+                        "Thank you, Miss Nilsdottir. Send him in,” the Admiral growled. She withdrew her head long enough to hold the door open, gesturing for the visitor to enter. ",
+                        "He was completely unremarkable; had the Admiral passed him on the streets, the light grey suit, matching open overcoat and Homburg would barely have registered. A thin grey moustache hung limply beneath half-closed eyes and, as he removed the hat. Even his white shirt took on a grey cast. The only vaguely colourful article about him was the light brown attaché case in his right hand.",
+                        "“Vice-Admiral Falsen,” he whispered languidly. Somehow, Falsen suspected that the man have known long before he set foot in the Ministry’s corridors, even if his name was on the door."
                     ]
                 },
                 {
@@ -51,7 +59,8 @@ export default {
                     title: "A Useful Politician",
                     intro: [
                         "Just one letter. That was all she had to do – post a letter. The gentleman with the genial smile, vaguely Continental accent and the icy blue eyes had paid her two pounds for a penny-rate letter, already stamped and addressed. He’d hinted that she might find it useful to write one herself",
-                        "Mrs Lynch smiled to herself as she approached the postbox just outside Heuston Station, revealing a haphazard array of tobacco-stained teeth. Hardly the best pay for her little favours, but quite good for such a trivial task and the extra two pounds would be very useful if Jimmy, Anna or Michael caught the flu again."
+                        "Mrs Lynch smiled to herself as she approached the postbox just outside Heuston Station, revealing a haphazard array of tobacco-stained teeth. Hardly the best pay for her little favours, but quite good for such a trivial task and the extra two pounds would be very useful if Jimmy, Anna or Michael caught the flu again.",
+                        "The name on the envelope was one she knew well. Jonathan Butler, County Councillor for Galway-Roscommon. Anyone in Connacht – the parts that hadn’t been overrun by the Fomorians – knew of him. A hollow-cheeked man with a very intense stare, frequently in the papers over London’s lack of support for Connacht. Sure, there was a heavy military presence, but not a lot else. Perhaps the man with the blue eyes wanted him to draw some more attention to this again."
                     ]
                 },
                 {
