@@ -76,6 +76,29 @@ export default {
                     author: "Tomás Grady",
                     width: '100%'
                 },
+                {
+                    title: "One Who Was Left Behind",
+                    paragraphs: [
+                        "I will not tell where I was born – let the fact that it was a surface village of the League be enough. As a citizen of the League, I sat through the endless classes on being a good citizen. We were taught that everyone must pull their weight in the League for the common good. To Leave No Feartollán Behind. I went to Mass like everyone else. I attended the Civil Defence training sessions, even as my parents struggled to pay the levies and tithes to support the militias. I planned to become a nurse.",
+                        "None of it made the slightest difference. One of Connacht Trading’s security guardsmen accused me of being a thief and a Fomorian sympathiser, and everybody I knew turned a blind eye as he removed me from my home without a trial. Just like that.",
+                        "There is a gap where I do not remember anything. I must have been in shock, for I woke up to find myself strapped to a trolley in my undergarments on that island. Facing me from the other trolley to my left was Mstr D. I am not proud to admit this, but I was shocked at his initial appearance – an attitude that he tells me he has been exposed to far too often.",
+                        "I do not remember the biopsy I underwent, for the surgeons sedated me during the procedure, but I still remember how I managed to escape. The guards grew careless and left my restraints too loose after forcing me to breath from a canister of air. I freed D., who was still somewhat out of it, and resolved to escape the island with him. Alas, our hopes were dashed.",
+                        "I still remember that “doctor Burke” who had examined us only the day before. He’s so smug as he starts lecturing us on the island’s advanced means of defence, so much in love with the sound of his own voice, that he hasn’t notice that black Fomorian stepping the corner behind him. The Fomorian does not hesitate or even say a word as he lifts a gun and aims at us.",
+                        "The barrel flashes several times. The gunshots sound more like a very slow typewriter than a firearm. A stream of brass cylinders fall out of the bottom of the gun, so slowly that I can see them tumbling. The guards fall over in a spray of blood. Burke freezes completely. We all do.",
+                        "Looking back, I expected the Fomorian to simply shoot us all on the spot, and I suppose it would have been a relief. But he didn’t. He instead began to start questioning the doctor on some counterfeit money that the “O’Rourkes” had received. I’m still shocked at how refined his voice was – not the crude and brutish voice I expected, but that of a very displeased nobleman.",
+                        "After D. let slip that he was – is – legally a kidnapped British citizen, the Fomorians offered to bring us and Dr Burke to a British outpost on Inis Bó Fin. Neither of us were inclined to trust them, but we had not choice in the matter. Unfortunately, a brewing storm forced us to seek shelter on the mainland – somewhere called the Aughrusbeg peninsula. And that is where we learned we had been exposed to Fomoritis.",
+                        "I still remember her now. That permanently frowning Fomorian with the flat voice. I still don’t know if she was indifferent to our plight, or merely oblivious, but she asked out loud if Connacht Trading had cheated them on some air samples from the tunnels under the Mountain Homes.",
+                        "Everything falls into place, and I see red. I lunge at the doctor, clasping my hands around his neck. All I feel is pure hatred. Had the Fomorians not pulled me off him like I was a kitten, I would have choked him to death.",
+                        "I still feel far more hatred towards him than to the Fomorians. D. agrees with me on this – they were genuinely disgusted with the doctor upon hearing he had exposed us to the infected air of the tunnels. Their leader – an uncannily refined and languid ‘woman’ whom O’Rourke addressed as his mother – rather coldly told the Doctor that it was the exact sort of thing the Fomorian Brotherhood does. I have never heard anyone address another person in such cold, calm contempt.",
+                        "I wish I could report that the doctor made it to stand trial and lose everything bar his life, but alas, it was not to be, for we were subsequently attacked by a terror bird. I had seen pictures before, but they do not do justice to the beasts. It was close to nine feet tall, with gleaming yellow eyes and a razor-sharp beak that must have been at least half the size of my head. And the smell! I cannot describe how revolting it smelt!",
+                        "It just appeared out of thin air in our midst. The Fomorians lashed out at it purely on reflex – and I must confess that I cannot fault them for this – and it fought back, trampling the good doctor in doing so. It lunged at myself and D., and I might not be here today if O’Rourke had not thrown himself into its path and took the point of the beak to his face. I heard later that he lost an eye from doing so.",
+                        "That one action – almost entirely on instinct – was more than my friends or family back home did for me. None of them stood up for me when I was accused of making an unlicensed copy of a single page from a book that I had bought. My parents likely believe I am dead. D. outright believes that his...relatives would actively hunt him if they knew what happened to him. I don’t want to believe this, and yet, I know he isn’t wrong.",
+                        "To look at myself in the mirror this morning, I see nothing out of the ordinary. No fangs. None of the “green psoriasis”. Only when I pull up my blouse sleeve do I see any difference, and even then, all I see is are more well defined and solid muscles. The Containment Office has confirmed that their investigations have cleared me of any wrongdoing prior to my kidnapping, and yet I meet the definition of the “Fomorian infiltrator” for which we were constantly told to be on the lookout.",
+                        "It strikes me that something is very wrong in Feartollán society if one cladhaire (transl.: rogue, crook) working for a merchant shipping firm can turn my life upside down like this with no oversight. What does it say that everyone is surprised that Connacht Trading admitted to any wrongdoing?"
+                    ],
+                    author: "Ms S",
+                    width: '100%'
+                }
                 
             ],
             options: {
@@ -95,5 +118,11 @@ export default {
 label {
     padding: 10px;
     margin-top: 5px;
+}
+
+.splide__slide {
+    overflow-y: auto;
+    max-height: 400px;
+    padding-bottom: 10px;
 }
 </style>

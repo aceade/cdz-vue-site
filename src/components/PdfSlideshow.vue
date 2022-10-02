@@ -116,6 +116,12 @@ p.intro {
     padding-top: 5px;
 }
 
+#storyTitle {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 div.intro {
     overflow-y: hidden;
     text-overflow: ellipsis;
