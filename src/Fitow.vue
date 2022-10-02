@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       authorsNotes: [
-        "Unlike most of the stories, these were originally written as blog posts on my main site."
+        "Unlike most of the stories, these were originally written as blog posts on my main site. The last one is probably the grimmest I've written."
       ]
     }
   }
