@@ -14,9 +14,9 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue';
-import PdfSlideshow from './components/PdfSlideshow.vue';
-import Footer from './components/Footer.vue';
+import Navbar from '../components/Navbar.vue';
+import PdfSlideshow from '../components/PdfSlideshow.vue';
+import Footer from '../components/Footer.vue';
 
 export default {
   components: {
@@ -38,38 +38,38 @@ export default {
       video_slides: [{
           src: "https://www.youtube.com/embed/gxwbNHDNhcs",
           title: "Art Process: Painting Orcish Children",
-          width: 700,
-          height: 400
+          width: "100%",
+          height: "100%"
         },
         {
           src: "https://www.youtube.com/embed/tPu8WRYbVmM",
           title: "Art Recording Timelapse: You Don't Need These",
-          width: 700,
-          height: 400
+          width: "100%",
+          height: "100%"
         },
         {
           src: "https://www.youtube.com/embed/LgFvwBMBJsg",
           title: "Art Recording Timelapse: Fomorian Character Portrait",
-          width: 700,
-          height: 400
+          width: "100%",
+          height: "100%"
         },
         {
           src: "https://www.youtube.com/embed/cD-lyzZ6Xw4",
           title: "Art Process: Albino Fomorian",
-          width: 700,
-          height: 400
+          width: "100%",
+          height: "100%"
         },
         {
           src: "https://www.youtube.com/embed/NEmQesdsVVw",
           title: "Artwork Recording: Serpentoid Site Scouts",
-          width: 700,
-          height: 400
+          width: "100%",
+          height: "100%"
         },
         {
           src: "https://www.youtube.com/embed/Irajgecpew0",
           title: "Banshee Lancer",
-          width: 700,
-          height: 400
+          width: "100%",
+          height: "100%"
         }
       ]
     }
@@ -79,8 +79,8 @@ export default {
 </script>
 
 <style>
-@import './assets/base.css';
-@import './assets/main.css';
+@import '../assets/base.css';
+@import '../assets/main.css';
 @import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 /* Applies when the screeen is at least 1024 pixels */

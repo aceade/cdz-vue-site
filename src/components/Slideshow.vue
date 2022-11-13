@@ -58,21 +58,25 @@ export default {
 @media (min-width: 1024px) {
   .splide img {
     max-width: 800px;
+    max-height: 600px;
   }
 }
 @media (min-width: 800px) and (max-width: 900px) {
   .splide img {
     max-width: 750px;
+    max-height: 500px;
   }
 }
 @media (max-width: 800px) and (min-width: 700px) {
   .splide img {
-    width: 500px
+    width: 500px;
+    max-height: 400px;
   }
 }
 @media (max-width: 500px) {
   .splide img {
     max-width: 300px;
+    max-width: 250px;
   }
 }
 

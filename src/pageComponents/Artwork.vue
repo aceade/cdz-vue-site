@@ -19,9 +19,9 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue';
-import Slideshow from './components/Slideshow.vue';
-import Footer from './components/Footer.vue'
+import Navbar from '../components/Navbar.vue';
+import Slideshow from '../components/Slideshow.vue';
+import Footer from '../components/Footer.vue'
 
 export default {
   components: {
@@ -130,11 +130,11 @@ export default {
 </script>
 
 <style>
-@import './assets/base.css';
-@import './assets/main.css';
+@import '../assets/base.css';
+@import '../assets/main.css';
 @import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
-/* Applies when the screeen is at least 1024 pixels */
+/* Applies when the screen is at least 1024 pixels */
 @media (min-width: 1024px) {
   .splide img {
     max-width: 900px;
@@ -202,6 +202,7 @@ export default {
 /* This can use a fixed height */
 #splide_characters img{
   min-height: 300px;
+  max-height: 500px;
 }
 
 #splide_scenes img {

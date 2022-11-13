@@ -32,9 +32,9 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue';
-import DetentionCentreTales from './components/stories/DetentionCentreTales.vue';
-import Footer from './components/Footer.vue'
+import Navbar from '../components/Navbar.vue';
+import DetentionCentreTales from '../components/stories/DetentionCentreTales.vue';
+import Footer from '../components/Footer.vue'
 
 export default {
   components: {
@@ -47,8 +47,8 @@ export default {
 </script>
 
 <style>
-@import './assets/base.css';
-@import './assets/main.css';
+@import '../assets/base.css';
+@import '../assets/main.css';
 
 .wrapper img {
   float: left;
