@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "@splidejs/vue-splide": "^0.6.7",
-    "vue": "^3.2.37",
-    "vue-carousel": "^0.18.0"
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",

@@ -1,9 +1,9 @@
 <script>
-import Navbar from './components/Navbar.vue';
-import Footer from './components/Footer.vue'
+import Navbar from '../components/Navbar.vue';
+import Footer from '../components/Footer.vue'
 // stories broken down into individual components
-import Snakepeople from './components/stories/Snakepeople.vue';
-import ORourke from './components/stories/ORourke.vue';
+import Snakepeople from '../components/stories/Snakepeople.vue';
+import ORourke from '../components/stories/ORourke.vue';
 
 export default {
     components: {
@@ -53,8 +53,8 @@ export default {
 </template>
 
 <style>
-@import './assets/base.css';
-@import './assets/main.css';
+@import '../assets/base.css';
+@import '../assets/main.css';
 
 h3 {
     text-align: center;
