@@ -62,7 +62,6 @@ p {
 
 .blurb {
   font-style: italic;
-  font-family: fantasy;
 }
 
 /*Extend the existing float-right class */
