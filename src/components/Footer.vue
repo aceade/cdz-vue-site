@@ -25,7 +25,7 @@
                     </a>
 
                     <!-- BuyMeACoffee -->
-                    <a href="https://www.buymeacoffee.com/aceade" title="Buy Me A Coffee" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 32px !important;width: 110px !important;" ></a>
+                    <a href="https://www.buymeacoffee.com/aceade" title="Buy Me A Coffee" target="_blank"><img id="bmacLink" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" ></a>
             </nav>
         </div>
     </footer>
@@ -51,6 +51,11 @@ footer {
 #mainSiteLink {
     width: 90px;
     border-radius: 45px;
+}
+
+#bmacLink {
+    max-height: 40px;
+    max-width: 200px;
 }
 
 /* If the user prefers a dark theme, allow Mastodon to stand out */
