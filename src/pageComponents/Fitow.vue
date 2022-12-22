@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       authorsNotes: [
-        "Unlike most of the stories, these were originally written as blog posts on my main site. The last one is probably the grimmest I've written."
+        "Unlike most of the stories, these were originally written as blog posts on my main site. The last one (One Who Was Left Behind) is probably the grimmest I've written."
       ]
     }
   }
@@ -65,6 +65,7 @@ export default {
 
 p {
   padding-bottom: 5px;
+  font-size: 16px;
 }
 
 .blurb {

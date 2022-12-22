@@ -4,7 +4,6 @@
   <main>
     <div class="wrapper">
       <div>
-        <h2/>
         <img src="https://aceade.files.wordpress.com/2022/02/cruaghislandaffaircover_v2.jpg" alt=""/>
         <div class="float-right">
           <p class="blurb">
@@ -14,13 +13,14 @@
             Her heart pounded in time with the squeak of the trolley wheels as she struggled futilely against the straps that dug into her limbs and chest. The sharp smell of antiseptic assaulted her nostrils, growing ever stronger, and stronger, and-
           </p>
           <hr/>
-          <p>A collection of stories involving an unsanctioned dwarven laboratory off the coast of Co. Galway as it attempts to discover the origins of the Fomorians.</p>
-          <p>If you like the following tasters, get the full set of 8 stories and associated artwork from 
+          <p>My first self-published collection of stories, involving an unsanctioned dwarven laboratory off the coast of Co. Galway as it attempts to discover the origins of the Fomorians.</p>
+          <p>If you like the following tasters, buy the full set of 8 stories and associated artwork from 
             <a href="https://www.buymeacoffee.com/aceade/e/58409">BuyMeACoffee</a>!
           </p>
         </div>
-        
         <div class="clear"></div>
+        <hr/>
+        
       </div>
 
       <CruaghIsland/>
@@ -67,11 +67,16 @@ export default {
 
 .wrapper img {
   float: left;
-  width: calc(60% - 5px);
+  width: calc(45% - 5px);
 }
 
 p {
   padding-bottom: 5px;
+  font-size: 16px;
+}
+
+hr {
+  margin-bottom: 15px;
 }
 
 .blurb {
@@ -81,7 +86,7 @@ p {
 
 /*Extend the existing float-right class */
 .float-right {
-  width: calc(40% - 5px);
+  width: calc(55% - 5px);
   margin-left: 5px;
   margin-top: 10px;
 }
