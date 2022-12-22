@@ -3,7 +3,7 @@
     <footer>
         <div>
             <nav class="navigation">
-                <ul>
+                <!-- <ul> -->
                     <!-- Mastodon -->
                     <a href="https://mastodon.social/web/@aceade" target="_blank">                            
                         <svg width="75" height="79" viewBox="0 0 75 79" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +27,7 @@
 
                     <!-- BuyMeACoffee -->
                     <a href="https://www.buymeacoffee.com/aceade" title="Buy Me A Coffee" target="_blank"><img id="bmacLink" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" ></a>
-                </ul>
+                <!-- </ul> -->
             </nav>
         </div>
     </footer>
@@ -40,7 +40,8 @@
 }
 
 .navigation {
-    display: flexbox;
+    display: grid;
+    place-items: center;
 }
 
 footer {
