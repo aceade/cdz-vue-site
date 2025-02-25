@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as e,a as c,F as r,j as l,t as p}from"./Footer-BjKh6QV9.js";const u={props:{notes:Array}};function d(_,s,o,i,f,m){return e(),t(r,null,[s[0]||(s[0]=c("h3",null,"Author's Notes",-1)),(e(!0),t(r,null,l(o.notes,n=>(e(),t("p",null,p(n),1))),256))],64)}const x=a(u,[["render",d],["__scopeId","data-v-0dda71ce"]]);export{x as A};
