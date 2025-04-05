@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="seriesLogo">
-            <img src="https://aceade.files.wordpress.com/2019/07/broken_arms.png"/>
+            <img src="https://aceade.net/wp-content/uploads/2024/03/broken_arms.webp" alt="The Connacht coat of arms (a shield with a bird on one half and an arm with a sword on the other). It is covered in scratches, bullet holes and other stains."/>
         </div>
         <div>
             <nav class="navigation">

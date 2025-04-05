@@ -37,7 +37,7 @@ p.welcome {
   font-weight: normal;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: "Gaelic", sans-serif;
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -51,7 +51,7 @@ h2 {
 
 h1,
 h2 {
-  font-family: "Gaelic", sans-serif;
+  font-family: sans-serif;
   text-align: center;
   padding-bottom: 10px;
   text-decoration: underline solid;
@@ -59,11 +59,7 @@ h2 {
   text-decoration-skip-ink: all;
 }
 
-/* Define the Bunchló Gael font */
-@font-face {
-  font-family: "Gaelic";
-  src: url("fonts/Bunchl.ttf");
-}
+
 
 .navigation {
   width: 100%;
@@ -72,7 +68,7 @@ h2 {
 }
 
 .navigation a {
-  font-family: "Gaelic", serif;
+  font-family: serif;
 }
 
 .navigation li {
