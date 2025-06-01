@@ -18,14 +18,8 @@ export default defineConfig({
         // put ALL pages you wish to build here
         main : resolve(__dirname, "index.html"),
         artwork: resolve(__dirname, "artwork.html"),
-        stories: resolve(__dirname, "stories.html"),
-        cruagh: resolve(__dirname, "cruagh.html"),
-        detention: resolve(__dirname, "detention.html"),
-        evictor: resolve(__dirname, "evictor.html"),
-        recordings: resolve(__dirname, "recordings.html"),
-        spycrabs: resolve(__dirname, "spycrabs.html"),
+        books: resolve(__dirname, "books.html"),
         about: resolve(__dirname, "about.html"),
-        fitow: resolve(__dirname, "fitow.html")
       }
     }
   }

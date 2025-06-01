@@ -11,32 +11,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="stories.html">Stories & Collections</a>
-                        <ul class="sublist">
-                            <li>
-                                <a href="cruagh.html">The Cruagh Island Affair</a>
-                            </li>
-                            <li>
-                                <a href="detention.html">Detention Centre Tales</a>
-                            </li>
-                            <li>
-                                <a href="spycrabs.html">Spycrabs & Warbirds</a>
-                            </li>
-                            <li>
-                                <a href="fitow.html">Fomorians In Their Own Words</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="artwork.html">Artwork</a>
-                        <ul class="sublist">
-                            <li>
-                                <a href="recordings.html">Timelapses</a>
-                            </li>
-                            <li>
-                                <a href="evictor.html">Smash The Evictor's Statue!</a>
-                            </li>
-                        </ul>
+                        <a href="books.html">Stories & Collections</a>
                     </li>
                    
                     <hr/>

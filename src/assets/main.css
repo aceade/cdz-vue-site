@@ -62,9 +62,9 @@ h2 {
 
 
 .navigation {
-  width: 100%;
   margin-bottom: 20px;
   font-size: 25px;
+  position: fixed;
 }
 
 .navigation a {
