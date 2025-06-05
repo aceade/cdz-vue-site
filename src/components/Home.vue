@@ -14,49 +14,24 @@
         What was once a series of impregnable cities became a nightmare where gravity could suddenly reverse, where the unfortunate could take another step and burst into flame, where one could turn a corner and vanish into thin air, only to reappear months later with no warning.
         To say nothing of the monsters that appeared.
     </p>
-    <Slideshow :options="options" :slides="slides" :collapsible="collapsible"/>
 
     <p class="welcome">Welcome to the West Connacht Disaster Zone.</p>
+
+    <p>Over 35 short stories, spread across 5 collections.</p>
+
+    <div>
+        
+    </div>
 </template>
 
 <script>
-import Slideshow from './Slideshow.vue';
 
 export default {
   components: {
-    Slideshow,
   },
   data() {
     return {
-        collapsible: false,
-        slides: [{
-            // images here have to be under ./images so Vite can pick them up!
-            src: "./images/Monsters_Banshee.png",
-            alt: "A thin humanoid dressed in a cloak and tunic, clutching a sword",
-            caption: "The banshees - tall, thin humanoids with screeching voices and whose dress and behaviour resembled nothing short of the Vikings."
-        },
-        {
-            src: "./images/Monsters_Snake.png",
-            alt: "A humanoid snake exposing their fangs",
-            caption: "The serpentoids - humanoid snakes seeking their revenge on Saint Patrick."
-        },
-        {
-            src: "./images/Monsters_Puca.png",
-            alt: "A red-eyed horse staring at the camera with a distended smirk on it's face",
-            caption: "The púca. Mutated horses with the ability to mimic human speech and an unlimited capacity for mischief."
-        },
-        {
-            src: "./images/Monsters_Orc.png",
-            alt: "A tusked human with red hair and green eyes",
-            caption: "And the Fomorians. The 'orcs'. The mutated remains of the humans and dwarves who had called the region home and were left behind."
-        }],
-        options: {
-            rewind  : true,
-            autoplay: true,
-            autoWidth: false,
-            autoHeight: false,
-            perPage: 1
-        }
+        
     }
 
   }

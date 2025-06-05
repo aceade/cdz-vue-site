@@ -1,9 +1,7 @@
 <template>
     <header>
-        <div class="seriesLogo">
-            <img src="https://aceade.net/wp-content/uploads/2024/03/broken_arms.webp" alt="The Connacht coat of arms (a shield with a bird on one half and an arm with a sword on the other). It is covered in scratches, bullet holes and other stains."/>
-        </div>
         <div>
+            <img class="seriesLogo" src="https://aceade.net/wp-content/uploads/2024/03/broken_arms.webp" alt="The Connacht coat of arms (a shield with a bird on one half and an arm with a sword on the other). It is covered in scratches, bullet holes and other stains."/>
             <nav class="navigation">
 
                 <ul>
@@ -27,10 +25,6 @@
 
 <style scoped>
 
-.sublist > li {
-    list-style: "\261E";
-}
-
 
 header {
   line-height: 1.5;
@@ -46,12 +40,10 @@ header .wrapper {
 
 .seriesLogo {
     margin-bottom: 10px;
-}
-
-.seriesLogo img {
     animation: Logo-spin infinite 2s alternate;
     max-width: 100px;
 }
+
 
 
 @keyframes Logo-spin {
